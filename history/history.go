@@ -25,3 +25,15 @@ func (h *History[T]) Add(k string, v T) {
 	h.lookup[k] = v
 	h.Unlock()
 }
+
+// GetHistory used to access the history, not threadsafe
+func (h *History[T]) GetKeys() []string {
+	keys := make([]string, 0, len(h.lookup))
+
+	// Iterate over the map and collect the keys
+	for key := range h.lookup {
+		keys = append(keys, key)
+	}
+
+	return keys
+}
