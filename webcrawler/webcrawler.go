@@ -1,6 +1,7 @@
 package webcrawler
 
 import (
+	"encoding/json"
 	"fmt"
 	"io"
 	"net/http"
@@ -9,9 +10,9 @@ import (
 	"sync"
 	"time"
 
-	"golang.org/x/net/html"
+	"webcrawler/webcrawler/history"
 
-	"webcrawler/history"
+	"golang.org/x/net/html"
 )
 
 const (
@@ -19,25 +20,25 @@ const (
 	maxDepth     = 20
 )
 
-// LINK types
+// Link types
 const (
-	HashLink     = "hashlink"     // typically represents a position on the page to link to.
-	PathLink     = "pathlink"     // represents a path on the same domain as its parent
-	PageLink     = "pagelink"     // represents a link to a different domain than its parent
-	UnknownLink  = "unknownlink"  // represents an unknown link type
-	ExistingLink = "existinglink" // represents a link that has already been visited
+	HashLink     = "hashlink"     // Typically represents a position on the page to link to.
+	PathLink     = "pathlink"     // Represents a path on the same domain as its parent.
+	PageLink     = "pagelink"     // Represents a link to a different domain than its parent.
+	UnknownLink  = "unknownlink"  // Represents an unknown link type.
+	ExistingLink = "existinglink" // Represents a link that has already been visited.
 )
 
-// Webcrawler provides functionality for crawling web pages
+// Webcrawler provides functionality for crawling web pages.
 type Webcrawler struct {
 	href     string
 	url      *url.URL
 	sameHost bool
-	timeout  time.Duration
 	history  *history.History[*Link]
+	client   http.Client
 }
 
-// Link represents a linked list node, showing the tree of links crawled over
+// Link represents a linked list node, showing the tree of links crawled over.
 type Link struct {
 	Parent   *Link   `json:"-"`
 	Text     string  `json:"text"`
@@ -47,47 +48,54 @@ type Link struct {
 	Children []*Link `json:"children,omitempty"`
 }
 
-// New creates a new Webcrawler
-func New(href string, sameDomain bool, timeout time.Duration) (*Webcrawler, error) {
-	// Parse the given URL
-	url, err := url.Parse(href)
+// New creates a new Webcrawler.
+func New(href string, sameDomain bool, timeout int) (*Webcrawler, error) {
+	// Parse the given URL.
+	parsedURL, err := url.Parse(href)
 	if err != nil {
 		return nil, err
 	}
 
-	// Initialize and return a Webcrawler instance
+	// Initialize and return a Webcrawler instance.
 	return &Webcrawler{
 		href:     href,
-		url:      url,
+		url:      parsedURL,
 		sameHost: sameDomain,
-		timeout:  timeout,
 		history:  history.NewHistory[*Link](),
+		client: http.Client{
+			Timeout: time.Duration(timeout) * time.Second,
+		},
 	}, nil
 }
 
-// Crawl will traverse throughout the given URL using the default depth
+// GetHistory takes a snapshot of the links history and returns a JSON list of all links within the history.
+func (c *Webcrawler) GetHistory() ([]byte, error) {
+	return json.MarshalIndent(c.history.GetKeys(), "", "    ")
+}
+
+// Crawl will traverse throughout the given URL using the default depth.
 func (c *Webcrawler) Crawl() *Link {
 	return c.CrawlDepth(defaultDepth, false)
 }
 
-// CrawlDepth will traverse throughout the given URL with specified depth and duplicate settings
+// CrawlDepth will traverse throughout the given URL with specified depth and duplicate settings.
 func (c *Webcrawler) CrawlDepth(depth int, hideDuplicates bool) *Link {
-	// Set depth to defaultDepth if it's zero or less
+	// Set depth to defaultDepth if it's zero or less.
 	if depth <= 0 {
 		depth = defaultDepth
 	} else if depth > maxDepth {
 		depth = maxDepth
 	}
 
-	// Start traversing from the root link
+	// Start traversing from the root link.
 	return c.traverse(&Link{Href: c.href}, depth, hideDuplicates)
 }
 
-// traverse handles visiting the link and processing its children
+// traverse handles visiting the link and processing its children.
 func (c *Webcrawler) traverse(l *Link, depth int, hideDuplicates bool) *Link {
-	// Visit the current link and find all links on the page
-	l.visit(c.timeout)
-	// Record the link in the history
+	// Visit the current link and find all links on the page.
+	l.visit(c.client)
+	// Record the link in the history.
 	c.history.Add(l.Href, l)
 
 	var wg sync.WaitGroup
@@ -95,10 +103,10 @@ func (c *Webcrawler) traverse(l *Link, depth int, hideDuplicates bool) *Link {
 	for i := 0; i < len(l.Children); i++ {
 		child := l.Children[i]
 
-		// Check if we've visited this link before
-		if _, ok := c.history.Check(child.Href); ok {
+		// Check if we've visited this link before.
+		if _, ok := c.history.Get(child.Href); ok {
 			if hideDuplicates {
-				// Hide duplicate links
+				// Hide duplicate links.
 				l.Children = append(l.Children[:i], l.Children[i+1:]...)
 				i--
 				continue
@@ -107,15 +115,15 @@ func (c *Webcrawler) traverse(l *Link, depth int, hideDuplicates bool) *Link {
 			continue
 		}
 
-		// Add the child link to history
+		// Add the child link to history.
 		c.history.Add(child.Href, child)
 
-		// Skip hash links
+		// Skip hash links.
 		if child.LinkType == HashLink {
 			continue
 		}
 
-		// Enforce same host policy if applicable
+		// Enforce same host policy if applicable.
 		if c.sameHost && child.LinkType != PathLink {
 			childURL, err := url.Parse(child.Href)
 			if err != nil {
@@ -127,7 +135,7 @@ func (c *Webcrawler) traverse(l *Link, depth int, hideDuplicates bool) *Link {
 			}
 		}
 
-		// Traverse children if depth is greater than 0
+		// Traverse children if depth is greater than 0.
 		if depth > 0 {
 			wg.Add(1)
 			go func(ch *Link) {
@@ -137,22 +145,22 @@ func (c *Webcrawler) traverse(l *Link, depth int, hideDuplicates bool) *Link {
 		}
 	}
 
-	// Wait for all goroutines to finish
+	// Wait for all goroutines to finish.
 	wg.Wait()
 
 	return l
 }
 
-// visit retrieves the page and extracts links from it
-func (l *Link) visit(timeout time.Duration) *Link {
+// visit retrieves the page and extracts links from it.
+func (l *Link) visit(client http.Client) *Link {
 	url := l.Href
 
-	// Add host to path link if needed
+	// Add host to path link if needed.
 	if l.LinkType == PathLink && !strings.HasPrefix(l.Href, l.Parent.Href) {
 		url = l.Parent.Href + l.Href
 	}
 
-	resp, err := http.Get(url)
+	resp, err := client.Get(url)
 	if err != nil {
 		l.Err = err
 		return l
@@ -172,9 +180,8 @@ func (l *Link) visit(timeout time.Duration) *Link {
 	return l.parseLinks(resp.Body)
 }
 
-// parseLinks extracts links from the HTTP response body
+// parseLinks extracts links from the HTTP response body.
 func (l *Link) parseLinks(body io.ReadCloser) *Link {
-
 	t := html.NewTokenizer(body)
 	l.Children = make([]*Link, 0, 40)
 	depth := 0
@@ -184,6 +191,9 @@ func (l *Link) parseLinks(body io.ReadCloser) *Link {
 		tt := t.Next()
 		switch tt {
 		case html.ErrorToken:
+			if t.Err() == io.EOF {
+				return l
+			}
 			l.Err = t.Err()
 			return l
 		case html.TextToken:
@@ -217,7 +227,7 @@ func (l *Link) parseLinks(body io.ReadCloser) *Link {
 	}
 }
 
-// resolveLinkType returns the link type based on the href
+// resolveLinkType returns the link type based on the href.
 func resolveLinkType(href string) string {
 	switch {
 	case strings.HasPrefix(href, "http://"), strings.HasPrefix(href, "https://"):
