@@ -39,7 +39,7 @@ go build crawler.go
 Run the crawler:
 
 ```sh
-./crawler -url <URL> -depth <DEPTH> -hide-duplicates -output-file <OUTPUT_FILE>
+./crawler -url <URL> -same-domain=true -timeout=5 -depth <DEPTH> -hide-duplicates=true -output-file <OUTPUT_FILE> -history-file <OUTPUT_FILE>
 ```
 
 - `-url`: The URL to start crawling from.

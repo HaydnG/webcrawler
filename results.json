@@ -121,6 +121,11 @@
           "text": "current account",
           "href": "https://monzo.com/current-account/",
           "linkType": "pagelink"
+        },
+        {
+          "text": "Find out more here",
+          "href": "https://monzo.com/switch/",
+          "linkType": "pagelink"
         }
       ]
     },
@@ -203,6 +208,64 @@
           "text": "Get Extra",
           "href": "https://www.monzo.com/-deeplinks/extra_signup?source=marketing:website:extra-header",
           "linkType": "pagelink"
+        }
+      ]
+    },
+    {
+      "text": "Perks",
+      "href": "/current-account/perks",
+      "linkType": "pathlink",
+      "children": [
+        {
+          "text": "Get Perks",
+          "href": "https://www.monzo.com/-deeplinks/perks_signup/?source=marketing:website:perks-header",
+          "linkType": "pagelink"
+        },
+        {
+          "text": "Ts\u0026Cs apply",
+          "href": "https://monzo.com/legal/perks/terms-and-conditions/",
+          "linkType": "pagelink",
+          "children": [
+            {
+              "text": "Terms \u0026 Conditions",
+              "href": "/legal/perks/terms-and-conditions",
+              "err": {},
+              "linkType": "pathlink"
+            },
+            {
+              "text": "Version 1.1",
+              "href": "/legal/perks/terms-and-conditions/version-1-1/",
+              "err": {},
+              "linkType": "pathlink"
+            },
+            {
+              "text": "Version 1.0",
+              "href": "/legal/perks/terms-and-conditions/version-1-0/",
+              "err": {},
+              "linkType": "pathlink"
+            },
+            {
+              "text": "Download as PDF",
+              "href": "/legal/files/perks/monzo-perks-terms-and-conditions-1.1.pdf",
+              "err": {},
+              "linkType": "pathlink"
+            }
+          ]
+        },
+        {
+          "text": "Get Monzo Perks",
+          "href": "https://monzo.com/-deeplinks/perks_signup/?source=marketing:website:perks-card",
+          "linkType": "pagelink"
+        },
+        {
+          "text": "Get ",
+          "href": "https://www.monzo.com/sign-up",
+          "linkType": "pagelink"
+        },
+        {
+          "text": "Get ",
+          "href": "https://www.monzo.com/-deeplinks/extra_signup?source=marketing:website:extra-compare",
+          "linkType": "pagelink"
         },
         {
           "text": "Ts\u0026Cs apply",
@@ -231,246 +294,8 @@
         },
         {
           "text": "Get ",
-          "href": "https://www.monzo.com/sign-up",
-          "linkType": "pagelink"
-        },
-        {
-          "text": "Get ",
-          "href": "https://www.monzo.com/-deeplinks/extra_signup?source=marketing:website:extra-compare",
-          "linkType": "pagelink"
-        },
-        {
-          "text": "Get ",
           "href": "https://www.monzo.com/-deeplinks/perks_signup?source=marketing:website:perks-compare",
           "linkType": "pagelink"
-        },
-        {
-          "text": "Ts\u0026Cs apply",
-          "href": "https://monzo.com/legal/perks/terms-and-conditions/",
-          "linkType": "pagelink",
-          "children": [
-            {
-              "text": "Terms \u0026 Conditions",
-              "href": "/legal/perks/terms-and-conditions",
-              "err": {},
-              "linkType": "pathlink"
-            },
-            {
-              "text": "Fee Information",
-              "href": "/legal/plans/fee-information",
-              "err": {},
-              "linkType": "pathlink"
-            },
-            {
-              "text": "Connected Banks Terms \u0026 Conditions",
-              "href": "/legal/plans/connected-banks-terms-and-conditions",
-              "err": {},
-              "linkType": "pathlink"
-            },
-            {
-              "text": "Credit Insights Terms \u0026 Conditions",
-              "href": "/legal/plans/credit-insights-terms-and-conditions",
-              "err": {},
-              "linkType": "pathlink"
-            },
-            {
-              "text": "fee information",
-              "href": "https://monzo.com/legal/plans/fee-information/",
-              "linkType": "pagelink",
-              "children": [
-                {
-                  "text": "Version 1.0",
-                  "href": "/legal/plans/fee-information/version-1-0/",
-                  "err": {},
-                  "linkType": "pathlink"
-                },
-                {
-                  "text": "Download as PDF",
-                  "href": "/legal/files/plans/fee-information/monzo-extra-perks-max-fee-information-document-1.0.pdf",
-                  "err": {},
-                  "linkType": "pathlink"
-                }
-              ]
-            },
-            {
-              "text": "Credit insights",
-              "href": "https://monzo.com/legal/plans/credit-insights-terms-and-conditions/",
-              "linkType": "pagelink",
-              "children": [
-                {
-                  "text": "https://www.transunion.com/credit-disputes/dispute-your-credit",
-                  "href": "https://www.transunion.com/credit-disputes/dispute-your-credit",
-                  "linkType": "pagelink"
-                },
-                {
-                  "text": "https://www.equifax.com/personal/credit-report-services/credit-dispute/",
-                  "href": "https://www.equifax.com/personal/credit-report-services/credit-dispute/",
-                  "linkType": "pagelink"
-                },
-                {
-                  "text": "Privacy Notice",
-                  "href": "https://monzo.com/legal/privacy-notice",
-                  "linkType": "pagelink"
-                },
-                {
-                  "text": "Version 1.0",
-                  "href": "/legal/plans/credit-insights-terms-and-conditions/version-1-0/",
-                  "err": {},
-                  "linkType": "pathlink"
-                },
-                {
-                  "text": "Download as PDF",
-                  "href": "/legal/files/plans/credit-insights/monzo-credit-insights-terms-and-conditions-1.0.pdf",
-                  "err": {},
-                  "linkType": "pathlink"
-                }
-              ]
-            },
-            {
-              "text": "Connected banks",
-              "href": "https://monzo.com/legal/plans/connected-banks-terms-and-conditions/",
-              "linkType": "pagelink",
-              "children": [
-                {
-                  "text": "Data Privacy Notice",
-                  "href": "https://monzo.com/legal/plus/other-accounts-in-monzo-privacy-notice/#open-banking",
-                  "linkType": "pagelink"
-                },
-                {
-                  "text": "Version 1.3",
-                  "href": "/legal/plans/connected-banks-terms-and-conditions/version-1-3/",
-                  "err": {},
-                  "linkType": "pathlink"
-                },
-                {
-                  "text": "Version 1.2",
-                  "href": "/legal/plans/connected-banks-terms-and-conditions/version-1-2/",
-                  "err": {},
-                  "linkType": "pathlink"
-                },
-                {
-                  "text": "Version 1.1",
-                  "href": "/legal/plans/connected-banks-terms-and-conditions/version-1-1/",
-                  "err": {},
-                  "linkType": "pathlink"
-                },
-                {
-                  "text": "Version 1.0",
-                  "href": "/legal/plans/connected-banks-terms-and-conditions/version-1-0/",
-                  "err": {},
-                  "linkType": "pathlink"
-                },
-                {
-                  "text": "Download as PDF",
-                  "href": "/legal/files/plans/connected-banks/monzo-connected-banks-terms-and-conditions-1.3.pdf",
-                  "err": {},
-                  "linkType": "pathlink"
-                }
-              ]
-            },
-            {
-              "text": "international card delivery fee",
-              "href": "https://monzo.com/legal/plus/fee-information/",
-              "linkType": "pagelink",
-              "children": [
-                {
-                  "text": "Fee Information",
-                  "href": "/legal/plus/fee-information",
-                  "err": {},
-                  "linkType": "pathlink"
-                },
-                {
-                  "text": "Credit Tracker Terms \u0026 Conditions",
-                  "href": "/legal/plus/credit-tracker-terms-and-conditions",
-                  "err": {},
-                  "linkType": "pathlink"
-                },
-                {
-                  "text": "Savings Summary",
-                  "href": "/legal/plus/savings-summary",
-                  "err": {},
-                  "linkType": "pathlink"
-                },
-                {
-                  "text": "Version 1.5",
-                  "href": "/legal/plus/fee-information/version-1-5/",
-                  "err": {},
-                  "linkType": "pathlink"
-                },
-                {
-                  "text": "Version 1.4",
-                  "href": "/legal/plus/fee-information/version-1-4/",
-                  "err": {},
-                  "linkType": "pathlink"
-                },
-                {
-                  "text": "Version 1.3",
-                  "href": "/legal/plus/fee-information/version-1-3/",
-                  "err": {},
-                  "linkType": "pathlink"
-                },
-                {
-                  "text": "Version 1.2",
-                  "href": "/legal/plus/fee-information/version-1-2/",
-                  "err": {},
-                  "linkType": "pathlink"
-                },
-                {
-                  "text": "Version 1.1",
-                  "href": "/legal/plus/fee-information/version-1-1/",
-                  "err": {},
-                  "linkType": "pathlink"
-                },
-                {
-                  "text": "Version 1.0",
-                  "href": "/legal/plus/fee-information/version-1-0/",
-                  "err": {},
-                  "linkType": "pathlink"
-                },
-                {
-                  "text": "Download as PDF",
-                  "href": "/legal/files/plus/monzo-plus-fee-information-1.5.pdf",
-                  "err": {},
-                  "linkType": "pathlink"
-                }
-              ]
-            },
-            {
-              "text": "privacy notice",
-              "href": "https://monzo.com/legal/privacy-notice/#open-banking",
-              "linkType": "pagelink"
-            },
-            {
-              "text": "participating partners",
-              "href": "https://monzo.com/help/payments-getting-started/cash-deposit-how-to/",
-              "linkType": "pagelink",
-              "children": [
-                {
-                  "text": "charges we have to pay to PayPoint and the Post Office",
-                  "href": "monzo://help_topic/paypoint-fee-why",
-                  "linkType": "unknownlink"
-                }
-              ]
-            },
-            {
-              "text": "Version 1.1",
-              "href": "/legal/perks/terms-and-conditions/version-1-1/",
-              "err": {},
-              "linkType": "pathlink"
-            },
-            {
-              "text": "Version 1.0",
-              "href": "/legal/perks/terms-and-conditions/version-1-0/",
-              "err": {},
-              "linkType": "pathlink"
-            },
-            {
-              "text": "Download as PDF",
-              "href": "/legal/files/perks/monzo-perks-terms-and-conditions-1.1.pdf",
-              "err": {},
-              "linkType": "pathlink"
-            }
-          ]
         },
         {
           "text": "Get ",
@@ -478,131 +303,13 @@
           "linkType": "pagelink"
         },
         {
-          "text": "Ts\u0026Cs apply",
-          "href": "https://monzo.com/legal/max/terms-and-conditions/",
-          "linkType": "pagelink",
-          "children": [
-            {
-              "text": "Terms \u0026 Conditions",
-              "href": "/legal/max/terms-and-conditions",
-              "err": {},
-              "linkType": "pathlink"
-            },
-            {
-              "text": "Breakdown Cover IPID",
-              "href": "/legal/files/max/monzo-max-rac-ipid-1.0.pdf",
-              "err": {},
-              "linkType": "pathlink"
-            },
-            {
-              "text": "Breakdown Cover Terms \u0026 Conditions",
-              "href": "/legal/files/max/monzo-max-rac-terms-and-conditions-1.0.pdf",
-              "err": {},
-              "linkType": "pathlink"
-            },
-            {
-              "text": "Phone Insurance IPID",
-              "href": "/legal/files/max/monzo-max-assurant-ipid-1.0.pdf",
-              "err": {},
-              "linkType": "pathlink"
-            },
-            {
-              "text": "Phone Insurance Terms \u0026 Conditions",
-              "href": "/legal/files/max/monzo-max-assurant-terms-and-conditions-1.0.pdf",
-              "err": {},
-              "linkType": "pathlink"
-            },
-            {
-              "text": "Travel Insurance IPID",
-              "href": "/legal/files/max/monzo-max-zurich-ipid-1.0.pdf",
-              "err": {},
-              "linkType": "pathlink"
-            },
-            {
-              "text": "Travel Insurance Terms \u0026 Conditions",
-              "href": "/legal/files/max/monzo-max-zurich-terms-and-conditions-1.0.pdf",
-              "err": {},
-              "linkType": "pathlink"
-            },
-            {
-              "text": "Check if you’re eligible for a Railcard",
-              "href": "https://www.thetrainline.com/trains/great-britain/railcards",
-              "linkType": "pagelink"
-            },
-            {
-              "text": "LoungeKey’s website",
-              "href": "https://www.loungekey.com/monzo",
-              "linkType": "pagelink"
-            },
-            {
-              "text": "Zurich’s terms \u0026 conditions",
-              "href": "https://monzo.com/legal/files/max/monzo-max-zurich-terms-and-conditions-1.0.pdf",
-              "err": {},
-              "linkType": "pagelink"
-            },
-            {
-              "text": "terms \u0026 conditions",
-              "href": "https://monzo.com/legal/files/max/monzo-max-assurant-terms-and-conditions-1.0.pdf",
-              "err": {},
-              "linkType": "pagelink"
-            },
-            {
-              "text": "terms \u0026 conditions",
-              "href": "https://monzo.com/legal/files/max/monzo-max-rac-terms-and-conditions-1.0.pdf",
-              "err": {},
-              "linkType": "pagelink"
-            },
-            {
-              "text": "CASS rules and regulations",
-              "href": "https://www.handbook.fca.org.uk/handbook/CASS/5/?view=chapter",
-              "linkType": "pagelink"
-            },
-            {
-              "text": "Version 1.2",
-              "href": "/legal/max/terms-and-conditions/version-1-2/",
-              "err": {},
-              "linkType": "pathlink"
-            },
-            {
-              "text": "Version 1.1",
-              "href": "/legal/max/terms-and-conditions/version-1-1/",
-              "err": {},
-              "linkType": "pathlink"
-            },
-            {
-              "text": "Version 1.0",
-              "href": "/legal/max/terms-and-conditions/version-1-0/",
-              "err": {},
-              "linkType": "pathlink"
-            },
-            {
-              "text": "Download as PDF",
-              "href": "/legal/files/max/monzo-max-terms-and-conditions-1.2.pdf",
-              "err": {},
-              "linkType": "pathlink"
-            }
-          ]
-        },
-        {
           "text": "Get all the details",
           "href": "https://monzo.com/current-account/plans#compare-our-plans",
           "linkType": "pagelink"
-        }
-      ]
-    },
-    {
-      "text": "Perks",
-      "href": "/current-account/perks",
-      "linkType": "pathlink",
-      "children": [
-        {
-          "text": "Get Perks",
-          "href": "https://www.monzo.com/-deeplinks/perks_signup/?source=marketing:website:perks-header",
-          "linkType": "pagelink"
         },
         {
-          "text": "Get Monzo Perks",
-          "href": "https://monzo.com/-deeplinks/perks_signup/?source=marketing:website:perks-card",
+          "text": "Monzo Labs",
+          "href": "https://monzo.com/-deeplinks/monzo-labs",
           "linkType": "pagelink"
         }
       ]
@@ -659,6 +366,11 @@
             {
               "text": "usual channels",
               "href": "https://monzo.com/legal/terms-and-conditions#how-well-contact-you-and-send-documents-",
+              "linkType": "pagelink"
+            },
+            {
+              "text": "Data Privacy Notice",
+              "href": "https://monzo.com/legal/privacy-notice",
               "linkType": "pagelink"
             },
             {
@@ -1128,7 +840,14 @@
     {
       "text": "Flex credit card",
       "href": "/flex",
-      "linkType": "pathlink"
+      "linkType": "pathlink",
+      "children": [
+        {
+          "text": "apply for Flex in the Monzo app",
+          "href": "https://monzo.com/-deeplinks/flex_start_application/",
+          "linkType": "pagelink"
+        }
+      ]
     },
     {
       "text": "Loans",
@@ -1257,130 +976,114 @@
                 {
                   "text": "What is Monzo Flex?",
                   "href": "/help/monzo-flex/monzo-flex-explained-2/",
-                  "err": {},
                   "linkType": "pathlink"
                 },
                 {
                   "text": "Applying for Monzo Flex and credit scores",
                   "href": "/help/monzo-flex/applying-for-monzo-flex-and-credit-scores/",
-                  "err": {},
                   "linkType": "pathlink"
                 },
                 {
                   "text": "Understanding interest rates for Monzo Flex",
                   "href": "/help/monzo-flex/interest-rates-for-monzo-flex-1/",
-                  "err": {},
                   "linkType": "pathlink"
                 },
                 {
                   "text": "Eligible transactions for Flex",
                   "href": "/help/monzo-flex/eligible-transactions-for-monzo-flex/",
-                  "err": {},
                   "linkType": "pathlink"
                 },
                 {
                   "text": "Where you can use Monzo Flex",
                   "href": "/help/monzo-flex/where-you-can-use-the-Flex-card/",
-                  "err": {},
                   "linkType": "pathlink"
                 },
                 {
                   "text": "Two ways to flex",
                   "href": "/help/monzo-flex/Two-ways-to-flex/",
-                  "err": {},
                   "linkType": "pathlink"
                 },
                 {
                   "text": "Choosing a plan for Monzo Flex",
                   "href": "/help/monzo-flex/Choosing-an-instalment-plan/",
-                  "err": {},
                   "linkType": "pathlink"
                 },
                 {
                   "text": "Adding the Flex card to Apple Wallet/Google Wallet",
                   "href": "/help/monzo-flex/Adding-Flex-card-to-Apple-Pay-Google-Pay/",
-                  "err": {},
                   "linkType": "pathlink"
                 },
                 {
                   "text": "Paying online using your Flex card",
                   "href": "/help/monzo-flex/paying-online-using-your-Flex-card/",
-                  "err": {},
-                  "linkType": "pathlink"
-                },
-                {
-                  "text": "Editing your Monzo Flex monthly payments",
-                  "href": "/help/monzo-flex/editing-monzo-flex-monthly-payments/",
-                  "err": {},
-                  "linkType": "pathlink"
-                },
-                {
-                  "text": "Paying off extra and early with Flex",
-                  "href": "/help/monzo-flex/paying-extra-towards-a-monzo-flex-flex-purchase/",
-                  "err": {},
-                  "linkType": "pathlink"
-                },
-                {
-                  "text": "Missing a Monzo Flex monthly payment",
-                  "href": "/help/monzo-flex/missing-a-monzo-flex-payment/",
-                  "err": {},
                   "linkType": "pathlink"
                 },
                 {
                   "text": "Section 75 Protection and Monzo Flex",
                   "href": "/help/monzo-flex/monzo-flex-and-section-75/",
-                  "err": {},
-                  "linkType": "pathlink"
-                },
-                {
-                  "text": "How to make a Section 75 claim on Monzo Flex",
-                  "href": "/help/monzo-flex/monzo-flex-and-section-75-claims/",
-                  "err": {},
-                  "linkType": "pathlink"
-                },
-                {
-                  "text": "How do refunds work for Monzo Flex",
-                  "href": "/help/monzo-flex/How-do-refunds-work-in-Flex/",
-                  "err": {},
                   "linkType": "pathlink"
                 },
                 {
                   "text": "Managing your money",
                   "href": "/help/monzo-flex/Managing-your-money/",
-                  "err": {},
                   "linkType": "pathlink"
                 },
                 {
                   "text": "Defaults and Monzo Flex",
                   "href": "/help/monzo-flex/what-does-a-default-mean-for-my-flex/",
-                  "err": {},
                   "linkType": "pathlink"
                 },
                 {
                   "text": "Change your Flex payment date",
                   "href": "/help/monzo-flex/change-your-flex-payment-date/",
-                  "err": {},
                   "linkType": "pathlink"
                 },
                 {
                   "text": "Understanding notices of sums in arrears (NOSIAs)",
                   "href": "/help/monzo-flex/notice-of-sums-in-arrears/",
-                  "err": {},
                   "linkType": "pathlink"
                 },
                 {
                   "text": "Setting a default plan for Flex card purchases",
                   "href": "/help/monzo-flex/setting-a-default-for-flex-card-purchases/",
-                  "err": {},
                   "linkType": "pathlink"
                 },
                 {
                   "text": "Changing your Flex credit limit",
                   "href": "/help/monzo-flex/Change-your-Flex-credit-limit/",
-                  "err": {},
                   "linkType": "pathlink"
                 }
               ]
+            },
+            {
+              "text": "Understanding overdrafts",
+              "href": "/help/overdrafts-loans/what-is-an-overdraft/",
+              "err": {},
+              "linkType": "pathlink"
+            },
+            {
+              "text": "Overdrafts with Monzo",
+              "href": "/help/overdrafts-loans/how-do-overdrafts-work/",
+              "err": {},
+              "linkType": "pathlink"
+            },
+            {
+              "text": "Getting an overdraft",
+              "href": "/help/overdrafts-loans/how-to-open-overdraft/",
+              "err": {},
+              "linkType": "pathlink"
+            },
+            {
+              "text": "Overdraft Interest",
+              "href": "/help/overdrafts-loans/overdrafts-fees/",
+              "err": {},
+              "linkType": "pathlink"
+            },
+            {
+              "text": "Managing your overdraft",
+              "href": "/help/overdrafts-loans/manage-overdraft-web/",
+              "err": {},
+              "linkType": "pathlink"
             }
           ]
         },
@@ -1531,22 +1234,6 @@
           "linkType": "pagelink",
           "children": [
             {
-              "text": "Published in: ",
-              "href": "/blog/topic/product-updates",
-              "err": {},
-              "linkType": "pathlink"
-            },
-            {
-              "text": "Monzo Plus",
-              "href": "https://monzo.com/i/monzo-plus/",
-              "linkType": "pagelink"
-            },
-            {
-              "text": "Monzo Premium",
-              "href": "https://monzo.com/i/monzo-premium/",
-              "linkType": "pagelink"
-            },
-            {
               "text": "Read more from Rore",
               "href": "/blog/author/rore-erica-okoh",
               "err": {},
@@ -1571,11 +1258,6 @@
               "linkType": "pathlink"
             },
             {
-              "text": "Share with us",
-              "href": "https://monzo.com/i/share-with-us",
-              "linkType": "pagelink"
-            },
-            {
               "text": "Read more about some of the charities and organisations we signpost",
               "href": "https://monzo.com/i/supporting-customers-signposting",
               "linkType": "pagelink"
@@ -1588,7 +1270,6 @@
                 {
                   "text": "Published in: ",
                   "href": "/blog/topic/how-to-save-money",
-                  "err": {},
                   "linkType": "pathlink"
                 },
                 {
@@ -1604,31 +1285,7 @@
                 {
                   "text": "doing it in reverse",
                   "href": "https://monzo.com/blog/2019/06/04/reverse-1p-savings-challenge-monzo",
-                  "linkType": "pagelink",
-                  "children": [
-                    {
-                      "text": "Published in: ",
-                      "href": "/blog/topic/how-money-works",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "Reverse 1p Saving Challenge",
-                      "href": "https://ifttt.com/applets/P6Tknd3X-take-on-the-reverse-1p-savings-challenge?term=reverse%201p%20saving%20challenge",
-                      "linkType": "pagelink"
-                    },
-                    {
-                      "text": "join the 1p Savings Challenge group on Facebook",
-                      "href": "https://www.facebook.com/groups/1psavings",
-                      "linkType": "pagelink"
-                    }
-                  ]
-                },
-                {
-                  "text": "Read more from Team",
-                  "href": "/blog/author/team-monzo",
-                  "err": {},
-                  "linkType": "pathlink"
+                  "linkType": "pagelink"
                 }
               ]
             },
@@ -1876,238 +1533,6 @@
           "text": "enquiries@trusselltrust.org",
           "href": "mailto:enquiries@trusselltrust.org",
           "linkType": "unknownlink"
-        },
-        {
-          "text": "Signposting to external organisations",
-          "href": "https://monzo.com/supporting-customers-signposting/",
-          "linkType": "pagelink",
-          "children": [
-            {
-              "text": "More information",
-              "href": "https://www.rethink.org/",
-              "linkType": "pagelink"
-            },
-            {
-              "text": "advice@carersuk.org",
-              "href": "mailto:advice@carersuk.org",
-              "linkType": "unknownlink"
-            },
-            {
-              "text": "Website",
-              "href": "https://www.carersuk.org",
-              "linkType": "pagelink"
-            },
-            {
-              "text": "Website",
-              "href": "https://www.gov.uk/government/organisations/office-of-the-public-guardian",
-              "linkType": "pagelink"
-            },
-            {
-              "text": "Website",
-              "href": "https://www.citizensadvice.org.uk/about-us/contact-us/contact-us/help-to-claim",
-              "linkType": "pagelink"
-            },
-            {
-              "text": "Turn2Us benefits calculator",
-              "href": "https://benefits-calculator.turn2us.org.uk/AboutYou",
-              "linkType": "pagelink"
-            },
-            {
-              "text": "More information",
-              "href": "https://www.workingfamilies.org.uk/article-categories/benefits-universal-credit-and-tax-credits",
-              "linkType": "pagelink"
-            },
-            {
-              "text": "Website",
-              "href": "https://www.nationaldebtline.org/EW/Pages/default.aspx",
-              "linkType": "pagelink"
-            },
-            {
-              "text": "Website",
-              "href": "https://www.moneyhelper.org.uk/en",
-              "linkType": "pagelink"
-            },
-            {
-              "text": "More information",
-              "href": "https://www.gov.uk/business-finance-support",
-              "linkType": "pagelink"
-            },
-            {
-              "text": "self-employed debt advice",
-              "href": "https://www.stepchange.org/debt-info/self-employed-debt-advice.aspx",
-              "linkType": "pagelink"
-            },
-            {
-              "text": "debt advice Scotland",
-              "href": "https://www.stepchange.org/how-we-help/debt-advice-scotland.aspx",
-              "linkType": "pagelink"
-            },
-            {
-              "text": "Website",
-              "href": "https://www.businessdebtline.org",
-              "linkType": "pagelink"
-            },
-            {
-              "text": "Website",
-              "href": "https://www.bgateway.com/",
-              "linkType": "pagelink"
-            },
-            {
-              "text": "More information",
-              "href": "https://www.adviceni.net/money-debt/business-debt",
-              "linkType": "pagelink"
-            },
-            {
-              "text": "Website",
-              "href": "https://www.shelter.org.uk/",
-              "linkType": "pagelink"
-            },
-            {
-              "text": "Website",
-              "href": "https://www.nightstop.org.uk/find-your-nearest-nightstop-service",
-              "linkType": "pagelink"
-            },
-            {
-              "text": "Website",
-              "href": "https://www.ncdv.org.uk/",
-              "linkType": "pagelink"
-            },
-            {
-              "text": "Website",
-              "href": "https://www.womensaid.org.uk",
-              "linkType": "pagelink"
-            },
-            {
-              "text": "Website",
-              "href": "https://www.refuge.org.uk/",
-              "linkType": "pagelink"
-            },
-            {
-              "text": "here",
-              "href": "https://www.redcross.org.uk/get-help/get-help-as-a-refugee/translated-pages",
-              "linkType": "pagelink"
-            },
-            {
-              "text": "Website",
-              "href": "https://www.stoploansharks.co.uk/",
-              "linkType": "pagelink"
-            },
-            {
-              "text": "helpline@cruse.org.uk",
-              "href": "mailto:helpline@cruse.org.uk",
-              "linkType": "unknownlink"
-            },
-            {
-              "text": "Website",
-              "href": "https://www.cruse.org.uk",
-              "linkType": "pagelink"
-            },
-            {
-              "text": "Website",
-              "href": "https://www.gingerbread.org.uk/information/",
-              "linkType": "pagelink"
-            },
-            {
-              "text": "More information",
-              "href": "https://www.citizensadvice.org.uk/family/ending-a-relationship/",
-              "linkType": "pagelink"
-            },
-            {
-              "text": "Website",
-              "href": "https://www.becomecharity.org.uk/for-young-people/care-factsheets",
-              "linkType": "pagelink"
-            },
-            {
-              "text": "search tool",
-              "href": "https://england.shelter.org.uk/get_help/local_services",
-              "linkType": "pagelink"
-            },
-            {
-              "text": "info@mind.org.uk",
-              "href": "mailto:info@mind.org.uk",
-              "linkType": "unknownlink"
-            },
-            {
-              "text": "Website",
-              "href": "https://www.mind.org.uk/",
-              "linkType": "pagelink"
-            },
-            {
-              "text": "Website",
-              "href": "https://www.rethink.org",
-              "linkType": "pagelink"
-            },
-            {
-              "text": "Website",
-              "href": "https://www.sane.org.uk",
-              "linkType": "pagelink"
-            },
-            {
-              "text": "More information",
-              "href": "https://youngminds.org.uk/find-help/get-urgent-help/youngminds-crisis-messenger/",
-              "linkType": "pagelink"
-            },
-            {
-              "text": "Website",
-              "href": "https://www.nhs.uk/service-search/other-services/Drug%20addiction%20support/LocationSearch/339",
-              "linkType": "pagelink"
-            },
-            {
-              "text": "Website",
-              "href": "https://www.nhs.uk/service-search/other-services/Alcohol-addiction/LocationSearch/1805",
-              "linkType": "pagelink"
-            },
-            {
-              "text": "Website",
-              "href": "https://www.gamcare.org.uk",
-              "linkType": "pagelink"
-            },
-            {
-              "text": "Gambling Therapy",
-              "href": "https://www.gamblingtherapy.org",
-              "linkType": "pagelink"
-            },
-            {
-              "text": "help@gordonmoody.org.uk",
-              "href": "mailto:help@gordonmoody.org.uk",
-              "linkType": "unknownlink"
-            },
-            {
-              "text": "Website",
-              "href": "https://www.gordonmoody.org.uk",
-              "linkType": "pagelink"
-            },
-            {
-              "text": "here.",
-              "href": "https://www.peoplehub.org.uk/category/resources/",
-              "linkType": "pagelink"
-            },
-            {
-              "text": "Website",
-              "href": "https://www.macmillan.org.uk",
-              "linkType": "pagelink"
-            },
-            {
-              "text": "website",
-              "href": "https://wavelength.org.uk/apply-for-help/",
-              "linkType": "pagelink"
-            },
-            {
-              "text": "Website",
-              "href": "https://www.ageuk.org.uk",
-              "linkType": "pagelink"
-            },
-            {
-              "text": "Website",
-              "href": "https://www.elderabuse.org.uk",
-              "linkType": "pagelink"
-            },
-            {
-              "text": "Website",
-              "href": "https://www.mencap.org.uk/",
-              "linkType": "pagelink"
-            }
-          ]
         }
       ]
     },
@@ -2116,16 +1541,6 @@
       "href": "/help/monzo-plus",
       "linkType": "pathlink",
       "children": [
-        {
-          "text": "Help",
-          "href": "/help/",
-          "err": {
-            "Op": "Get",
-            "URL": "/help/monzo-plus/help/",
-            "Err": {}
-          },
-          "linkType": "pathlink"
-        },
         {
           "text": "What’s happening to Plus and Premium?",
           "href": "/help/monzo-plus/plus-premium-whats-happening/",
@@ -2651,36 +2066,6 @@
           "linkType": "pagelink",
           "children": [
             {
-              "text": "Understanding overdrafts",
-              "href": "/help/overdrafts-loans/what-is-an-overdraft/",
-              "err": {},
-              "linkType": "pathlink"
-            },
-            {
-              "text": "Overdrafts with Monzo",
-              "href": "/help/overdrafts-loans/how-do-overdrafts-work/",
-              "err": {},
-              "linkType": "pathlink"
-            },
-            {
-              "text": "Getting an overdraft",
-              "href": "/help/overdrafts-loans/how-to-open-overdraft/",
-              "err": {},
-              "linkType": "pathlink"
-            },
-            {
-              "text": "Overdraft Interest",
-              "href": "/help/overdrafts-loans/overdrafts-fees/",
-              "err": {},
-              "linkType": "pathlink"
-            },
-            {
-              "text": "Managing your overdraft",
-              "href": "/help/overdrafts-loans/manage-overdraft-web/",
-              "err": {},
-              "linkType": "pathlink"
-            },
-            {
               "text": "Changing your overdraft limit",
               "href": "/help/overdrafts-loans/changing-overdraft-limit/",
               "err": {},
@@ -2807,11 +2192,6 @@
     {
       "text": "If Monzo is your main bank account",
       "href": "/features/travel#how-do-i-know-if-monzo-is-my-main-bank",
-      "linkType": "pathlink"
-    },
-    {
-      "text": "European Economic Area (EEA)",
-      "href": "/features/travel#what-is-the-european-economic-area",
       "linkType": "pathlink",
       "children": [
         {
@@ -2829,18 +2209,320 @@
               "text": "raising what's called a 'chargeback'",
               "href": "https://monzo.com/help/payments-troubleshooting/chargebacks-current-account",
               "linkType": "pagelink"
+            },
+            {
+              "text": "Editing your Monzo Flex monthly payments",
+              "href": "/help/monzo-flex/editing-monzo-flex-monthly-payments/",
+              "err": {},
+              "linkType": "pathlink"
+            },
+            {
+              "text": "Paying off extra and early with Flex",
+              "href": "/help/monzo-flex/paying-extra-towards-a-monzo-flex-flex-purchase/",
+              "err": {},
+              "linkType": "pathlink"
+            },
+            {
+              "text": "Missing a Monzo Flex monthly payment",
+              "href": "/help/monzo-flex/missing-a-monzo-flex-payment/",
+              "err": {},
+              "linkType": "pathlink"
+            },
+            {
+              "text": "How to make a Section 75 claim on Monzo Flex",
+              "href": "/help/monzo-flex/monzo-flex-and-section-75-claims/",
+              "err": {},
+              "linkType": "pathlink"
+            },
+            {
+              "text": "How do refunds work for Monzo Flex",
+              "href": "/help/monzo-flex/How-do-refunds-work-in-Flex/",
+              "err": {},
+              "linkType": "pathlink"
             }
           ]
         },
         {
           "text": "Apply for a Flex Credit Card",
           "href": "https://monzo.com/apply-for-monzo-flex-desktop",
+          "linkType": "pagelink"
+        },
+        {
+          "text": "Ts\u0026Cs apply",
+          "href": "https://monzo.com/legal/max/terms-and-conditions/",
           "linkType": "pagelink",
           "children": [
             {
-              "text": "Apply for Monzo Flex",
-              "href": "https://monzo.com/-deeplinks/flex_start_application/",
+              "text": "Terms \u0026 Conditions",
+              "href": "/legal/max/terms-and-conditions",
+              "err": {},
+              "linkType": "pathlink"
+            },
+            {
+              "text": "Fee Information",
+              "href": "/legal/plans/fee-information",
+              "err": {},
+              "linkType": "pathlink"
+            },
+            {
+              "text": "Credit Insights Terms \u0026 Conditions",
+              "href": "/legal/plans/credit-insights-terms-and-conditions",
+              "err": {},
+              "linkType": "pathlink"
+            },
+            {
+              "text": "Connected Banks Terms \u0026 Conditions",
+              "href": "/legal/plans/connected-banks-terms-and-conditions",
+              "err": {},
+              "linkType": "pathlink"
+            },
+            {
+              "text": "Breakdown Cover IPID",
+              "href": "/legal/files/max/monzo-max-rac-ipid-1.0.pdf",
+              "err": {},
+              "linkType": "pathlink"
+            },
+            {
+              "text": "Breakdown Cover Terms \u0026 Conditions",
+              "href": "/legal/files/max/monzo-max-rac-terms-and-conditions-1.0.pdf",
+              "err": {},
+              "linkType": "pathlink"
+            },
+            {
+              "text": "Phone Insurance IPID",
+              "href": "/legal/files/max/monzo-max-assurant-ipid-1.0.pdf",
+              "err": {},
+              "linkType": "pathlink"
+            },
+            {
+              "text": "Phone Insurance Terms \u0026 Conditions",
+              "href": "/legal/files/max/monzo-max-assurant-terms-and-conditions-1.0.pdf",
+              "err": {},
+              "linkType": "pathlink"
+            },
+            {
+              "text": "Travel Insurance IPID",
+              "href": "/legal/files/max/monzo-max-zurich-ipid-1.0.pdf",
+              "err": {},
+              "linkType": "pathlink"
+            },
+            {
+              "text": "Travel Insurance Terms \u0026 Conditions",
+              "href": "/legal/files/max/monzo-max-zurich-terms-and-conditions-1.0.pdf",
+              "err": {},
+              "linkType": "pathlink"
+            },
+            {
+              "text": "fee information",
+              "href": "https://monzo.com/legal/plans/fee-information/",
+              "linkType": "pagelink",
+              "children": [
+                {
+                  "text": "Version 1.0",
+                  "href": "/legal/plans/fee-information/version-1-0/",
+                  "linkType": "pathlink"
+                },
+                {
+                  "text": "Download as PDF",
+                  "href": "/legal/files/plans/fee-information/monzo-extra-perks-max-fee-information-document-1.0.pdf",
+                  "linkType": "pathlink"
+                }
+              ]
+            },
+            {
+              "text": "Credit insights",
+              "href": "https://monzo.com/legal/plans/credit-insights-terms-and-conditions/",
+              "linkType": "pagelink",
+              "children": [
+                {
+                  "text": "https://www.transunion.com/credit-disputes/dispute-your-credit",
+                  "href": "https://www.transunion.com/credit-disputes/dispute-your-credit",
+                  "linkType": "pagelink"
+                },
+                {
+                  "text": "https://www.equifax.com/personal/credit-report-services/credit-dispute/",
+                  "href": "https://www.equifax.com/personal/credit-report-services/credit-dispute/",
+                  "linkType": "pagelink"
+                },
+                {
+                  "text": "Version 1.0",
+                  "href": "/legal/plans/credit-insights-terms-and-conditions/version-1-0/",
+                  "linkType": "pathlink"
+                },
+                {
+                  "text": "Download as PDF",
+                  "href": "/legal/files/plans/credit-insights/monzo-credit-insights-terms-and-conditions-1.0.pdf",
+                  "linkType": "pathlink"
+                }
+              ]
+            },
+            {
+              "text": "Connected banks",
+              "href": "https://monzo.com/legal/plans/connected-banks-terms-and-conditions/",
+              "linkType": "pagelink",
+              "children": [
+                {
+                  "text": "Data Privacy Notice",
+                  "href": "https://monzo.com/legal/plus/other-accounts-in-monzo-privacy-notice/#open-banking",
+                  "linkType": "pagelink"
+                },
+                {
+                  "text": "Version 1.3",
+                  "href": "/legal/plans/connected-banks-terms-and-conditions/version-1-3/",
+                  "linkType": "pathlink"
+                },
+                {
+                  "text": "Version 1.2",
+                  "href": "/legal/plans/connected-banks-terms-and-conditions/version-1-2/",
+                  "linkType": "pathlink"
+                },
+                {
+                  "text": "Version 1.1",
+                  "href": "/legal/plans/connected-banks-terms-and-conditions/version-1-1/",
+                  "linkType": "pathlink"
+                },
+                {
+                  "text": "Version 1.0",
+                  "href": "/legal/plans/connected-banks-terms-and-conditions/version-1-0/",
+                  "linkType": "pathlink"
+                },
+                {
+                  "text": "Download as PDF",
+                  "href": "/legal/files/plans/connected-banks/monzo-connected-banks-terms-and-conditions-1.3.pdf",
+                  "linkType": "pathlink"
+                }
+              ]
+            },
+            {
+              "text": "international card delivery fee",
+              "href": "https://monzo.com/legal/plus/fee-information/",
+              "linkType": "pagelink",
+              "children": [
+                {
+                  "text": "Fee Information",
+                  "href": "/legal/plus/fee-information",
+                  "linkType": "pathlink"
+                },
+                {
+                  "text": "Credit Tracker Terms \u0026 Conditions",
+                  "href": "/legal/plus/credit-tracker-terms-and-conditions",
+                  "linkType": "pathlink"
+                },
+                {
+                  "text": "Savings Summary",
+                  "href": "/legal/plus/savings-summary",
+                  "linkType": "pathlink"
+                },
+                {
+                  "text": "Version 1.5",
+                  "href": "/legal/plus/fee-information/version-1-5/",
+                  "linkType": "pathlink"
+                },
+                {
+                  "text": "Version 1.4",
+                  "href": "/legal/plus/fee-information/version-1-4/",
+                  "linkType": "pathlink"
+                },
+                {
+                  "text": "Version 1.3",
+                  "href": "/legal/plus/fee-information/version-1-3/",
+                  "linkType": "pathlink"
+                },
+                {
+                  "text": "Version 1.2",
+                  "href": "/legal/plus/fee-information/version-1-2/",
+                  "linkType": "pathlink"
+                },
+                {
+                  "text": "Version 1.1",
+                  "href": "/legal/plus/fee-information/version-1-1/",
+                  "linkType": "pathlink"
+                },
+                {
+                  "text": "Version 1.0",
+                  "href": "/legal/plus/fee-information/version-1-0/",
+                  "linkType": "pathlink"
+                },
+                {
+                  "text": "Download as PDF",
+                  "href": "/legal/files/plus/monzo-plus-fee-information-1.5.pdf",
+                  "linkType": "pathlink"
+                }
+              ]
+            },
+            {
+              "text": "privacy notice",
+              "href": "https://monzo.com/legal/privacy-notice/#open-banking",
               "linkType": "pagelink"
+            },
+            {
+              "text": "participating partners",
+              "href": "https://monzo.com/help/payments-getting-started/cash-deposit-how-to/",
+              "linkType": "pagelink",
+              "children": [
+                {
+                  "text": "charges we have to pay to PayPoint and the Post Office",
+                  "href": "monzo://help_topic/paypoint-fee-why",
+                  "linkType": "unknownlink"
+                }
+              ]
+            },
+            {
+              "text": "Check if you’re eligible for a Railcard",
+              "href": "https://www.thetrainline.com/trains/great-britain/railcards",
+              "linkType": "pagelink"
+            },
+            {
+              "text": "LoungeKey’s website",
+              "href": "https://www.loungekey.com/monzo",
+              "linkType": "pagelink"
+            },
+            {
+              "text": "Zurich’s terms \u0026 conditions",
+              "href": "https://monzo.com/legal/files/max/monzo-max-zurich-terms-and-conditions-1.0.pdf",
+              "err": {},
+              "linkType": "pagelink"
+            },
+            {
+              "text": "terms \u0026 conditions",
+              "href": "https://monzo.com/legal/files/max/monzo-max-assurant-terms-and-conditions-1.0.pdf",
+              "err": {},
+              "linkType": "pagelink"
+            },
+            {
+              "text": "terms \u0026 conditions",
+              "href": "https://monzo.com/legal/files/max/monzo-max-rac-terms-and-conditions-1.0.pdf",
+              "err": {},
+              "linkType": "pagelink"
+            },
+            {
+              "text": "CASS rules and regulations",
+              "href": "https://www.handbook.fca.org.uk/handbook/CASS/5/?view=chapter",
+              "linkType": "pagelink"
+            },
+            {
+              "text": "Version 1.2",
+              "href": "/legal/max/terms-and-conditions/version-1-2/",
+              "err": {},
+              "linkType": "pathlink"
+            },
+            {
+              "text": "Version 1.1",
+              "href": "/legal/max/terms-and-conditions/version-1-1/",
+              "err": {},
+              "linkType": "pathlink"
+            },
+            {
+              "text": "Version 1.0",
+              "href": "/legal/max/terms-and-conditions/version-1-0/",
+              "err": {},
+              "linkType": "pathlink"
+            },
+            {
+              "text": "Download as PDF",
+              "href": "/legal/files/max/monzo-max-terms-and-conditions-1.2.pdf",
+              "err": {},
+              "linkType": "pathlink"
             }
           ]
         },
@@ -2956,6 +2638,11 @@
       ]
     },
     {
+      "text": "European Economic Area (EEA)",
+      "href": "/features/travel#what-is-the-european-economic-area",
+      "linkType": "pathlink"
+    },
+    {
       "text": "Master your money with our best tools",
       "href": "#",
       "linkType": "hashlink"
@@ -3009,22 +2696,17 @@
           "text": "Get ",
           "href": "https://monzo.com/-deeplinks/max_signup?source=marketing:website:plans-max-compare",
           "linkType": "pagelink"
-        },
-        {
-          "text": "Monzo Labs",
-          "href": "https://monzo.com/-deeplinks/monzo-labs",
-          "linkType": "pagelink"
-        },
-        {
-          "text": "Find out more here",
-          "href": "https://monzo.com/switch/",
-          "linkType": "pagelink"
         }
       ]
     },
     {
       "text": "View full results for Great Britain",
       "href": "/service-quality-results#personal-great-britain",
+      "linkType": "pathlink"
+    },
+    {
+      "text": "View full results for Northern Ireland",
+      "href": "/service-quality-results#personal-northern-ireland",
       "linkType": "pathlink",
       "children": [
         {
@@ -3032,7 +2714,7 @@
           "href": "/service-quality-results#business-great-britain",
           "err": {
             "Op": "Get",
-            "URL": "/service-quality-results#personal-great-britain/service-quality-results%23business-great-britain",
+            "URL": "/service-quality-results#personal-northern-ireland/service-quality-results%23business-great-britain",
             "Err": {}
           },
           "linkType": "pathlink"
@@ -3047,7 +2729,7 @@
           "href": "/information-about-current-account-services",
           "err": {
             "Op": "Get",
-            "URL": "/service-quality-results#personal-great-britain/information-about-current-account-services",
+            "URL": "/service-quality-results#personal-northern-ireland/information-about-current-account-services",
             "Err": {}
           },
           "linkType": "pathlink"
@@ -3062,17 +2744,12 @@
           "href": "/information-about-business-current-account-services",
           "err": {
             "Op": "Get",
-            "URL": "/service-quality-results#personal-great-britain/information-about-business-current-account-services",
+            "URL": "/service-quality-results#personal-northern-ireland/information-about-business-current-account-services",
             "Err": {}
           },
           "linkType": "pathlink"
         }
       ]
-    },
-    {
-      "text": "View full results for Northern Ireland",
-      "href": "/service-quality-results#personal-northern-ireland",
-      "linkType": "pathlink"
     },
     {
       "text": "www.psr.org.uk/app-fraud-data",
@@ -3697,11 +3374,6 @@
               "linkType": "pagelink"
             },
             {
-              "text": "Gamban",
-              "href": "https://gamban.com/",
-              "linkType": "pagelink"
-            },
-            {
               "text": "GamFam",
               "href": "https://gamfam.co.uk/",
               "linkType": "pagelink"
@@ -3847,76 +3519,6 @@
           "text": "Find out more",
           "href": "https://monzo.com/i/share-with-us/",
           "linkType": "pagelink"
-        },
-        {
-          "text": "13 September 2023",
-          "href": "/blog/weve-improved-our-gambling-block",
-          "err": {
-            "Op": "Get",
-            "URL": "/our-social-programme/blog/weve-improved-our-gambling-block",
-            "Err": {}
-          },
-          "linkType": "pathlink"
-        },
-        {
-          "text": "27 June 2022",
-          "href": "/blog/the-extra-costs-of-living-with-adhd",
-          "err": {
-            "Op": "Get",
-            "URL": "/our-social-programme/blog/the-extra-costs-of-living-with-adhd",
-            "Err": {}
-          },
-          "linkType": "pathlink"
-        },
-        {
-          "text": "12 May 2021",
-          "href": "/blog/2021/05/13/supporting-our-customers-through-mental-health-problems",
-          "err": {
-            "Op": "Get",
-            "URL": "/our-social-programme/blog/2021/05/13/supporting-our-customers-through-mental-health-problems",
-            "Err": {}
-          },
-          "linkType": "pathlink"
-        },
-        {
-          "text": "17 May 2020",
-          "href": "/blog/5-practical-tips-for-feeling-less-lonely-in-lockdown",
-          "err": {
-            "Op": "Get",
-            "URL": "/our-social-programme/blog/5-practical-tips-for-feeling-less-lonely-in-lockdown",
-            "Err": {}
-          },
-          "linkType": "pathlink"
-        },
-        {
-          "text": "17 May 2020",
-          "href": "/blog/3-practical-tips-to-reduce-daily-anxiety",
-          "err": {
-            "Op": "Get",
-            "URL": "/our-social-programme/blog/3-practical-tips-to-reduce-daily-anxiety",
-            "Err": {}
-          },
-          "linkType": "pathlink"
-        },
-        {
-          "text": "27 April 2020",
-          "href": "/blog/how-monzos-gambling-block-and-self-exclusion-helped-me-beat-gambling-addiction-and-pay-off-debt",
-          "err": {
-            "Op": "Get",
-            "URL": "/our-social-programme/blog/how-monzos-gambling-block-and-self-exclusion-helped-me-beat-gambling-addiction-and-pay-off-debt",
-            "Err": {}
-          },
-          "linkType": "pathlink"
-        },
-        {
-          "text": "Read more",
-          "href": "/blog/topic/mental-health",
-          "err": {
-            "Op": "Get",
-            "URL": "/our-social-programme/blog/topic/mental-health",
-            "Err": {}
-          },
-          "linkType": "pathlink"
         }
       ]
     },
@@ -3993,6 +3595,238 @@
           "linkType": "pagelink"
         },
         {
+          "text": "Signposting to external organisations",
+          "href": "https://monzo.com/supporting-customers-signposting/",
+          "linkType": "pagelink",
+          "children": [
+            {
+              "text": "More information",
+              "href": "https://www.rethink.org/",
+              "linkType": "pagelink"
+            },
+            {
+              "text": "advice@carersuk.org",
+              "href": "mailto:advice@carersuk.org",
+              "linkType": "unknownlink"
+            },
+            {
+              "text": "Website",
+              "href": "https://www.carersuk.org",
+              "linkType": "pagelink"
+            },
+            {
+              "text": "Website",
+              "href": "https://www.gov.uk/government/organisations/office-of-the-public-guardian",
+              "linkType": "pagelink"
+            },
+            {
+              "text": "Website",
+              "href": "https://www.citizensadvice.org.uk/about-us/contact-us/contact-us/help-to-claim",
+              "linkType": "pagelink"
+            },
+            {
+              "text": "Turn2Us benefits calculator",
+              "href": "https://benefits-calculator.turn2us.org.uk/AboutYou",
+              "linkType": "pagelink"
+            },
+            {
+              "text": "More information",
+              "href": "https://www.workingfamilies.org.uk/article-categories/benefits-universal-credit-and-tax-credits",
+              "linkType": "pagelink"
+            },
+            {
+              "text": "Website",
+              "href": "https://www.nationaldebtline.org/EW/Pages/default.aspx",
+              "linkType": "pagelink"
+            },
+            {
+              "text": "Website",
+              "href": "https://www.moneyhelper.org.uk/en",
+              "linkType": "pagelink"
+            },
+            {
+              "text": "More information",
+              "href": "https://www.gov.uk/business-finance-support",
+              "linkType": "pagelink"
+            },
+            {
+              "text": "self-employed debt advice",
+              "href": "https://www.stepchange.org/debt-info/self-employed-debt-advice.aspx",
+              "linkType": "pagelink"
+            },
+            {
+              "text": "debt advice Scotland",
+              "href": "https://www.stepchange.org/how-we-help/debt-advice-scotland.aspx",
+              "linkType": "pagelink"
+            },
+            {
+              "text": "Website",
+              "href": "https://www.businessdebtline.org",
+              "linkType": "pagelink"
+            },
+            {
+              "text": "Website",
+              "href": "https://www.bgateway.com/",
+              "linkType": "pagelink"
+            },
+            {
+              "text": "More information",
+              "href": "https://www.adviceni.net/money-debt/business-debt",
+              "linkType": "pagelink"
+            },
+            {
+              "text": "Website",
+              "href": "https://www.shelter.org.uk/",
+              "linkType": "pagelink"
+            },
+            {
+              "text": "Website",
+              "href": "https://www.nightstop.org.uk/find-your-nearest-nightstop-service",
+              "linkType": "pagelink"
+            },
+            {
+              "text": "Website",
+              "href": "https://www.ncdv.org.uk/",
+              "linkType": "pagelink"
+            },
+            {
+              "text": "Website",
+              "href": "https://www.womensaid.org.uk",
+              "linkType": "pagelink"
+            },
+            {
+              "text": "Website",
+              "href": "https://www.refuge.org.uk/",
+              "linkType": "pagelink"
+            },
+            {
+              "text": "here",
+              "href": "https://www.redcross.org.uk/get-help/get-help-as-a-refugee/translated-pages",
+              "linkType": "pagelink"
+            },
+            {
+              "text": "Website",
+              "href": "https://www.stoploansharks.co.uk/",
+              "linkType": "pagelink"
+            },
+            {
+              "text": "helpline@cruse.org.uk",
+              "href": "mailto:helpline@cruse.org.uk",
+              "linkType": "unknownlink"
+            },
+            {
+              "text": "Website",
+              "href": "https://www.cruse.org.uk",
+              "linkType": "pagelink"
+            },
+            {
+              "text": "Website",
+              "href": "https://www.gingerbread.org.uk/information/",
+              "linkType": "pagelink"
+            },
+            {
+              "text": "More information",
+              "href": "https://www.citizensadvice.org.uk/family/ending-a-relationship/",
+              "linkType": "pagelink"
+            },
+            {
+              "text": "Website",
+              "href": "https://www.becomecharity.org.uk/for-young-people/care-factsheets",
+              "linkType": "pagelink"
+            },
+            {
+              "text": "search tool",
+              "href": "https://england.shelter.org.uk/get_help/local_services",
+              "linkType": "pagelink"
+            },
+            {
+              "text": "info@mind.org.uk",
+              "href": "mailto:info@mind.org.uk",
+              "linkType": "unknownlink"
+            },
+            {
+              "text": "Website",
+              "href": "https://www.mind.org.uk/",
+              "linkType": "pagelink"
+            },
+            {
+              "text": "Website",
+              "href": "https://www.rethink.org",
+              "linkType": "pagelink"
+            },
+            {
+              "text": "Website",
+              "href": "https://www.sane.org.uk",
+              "linkType": "pagelink"
+            },
+            {
+              "text": "More information",
+              "href": "https://youngminds.org.uk/find-help/get-urgent-help/youngminds-crisis-messenger/",
+              "linkType": "pagelink"
+            },
+            {
+              "text": "Website",
+              "href": "https://www.nhs.uk/service-search/other-services/Drug%20addiction%20support/LocationSearch/339",
+              "linkType": "pagelink"
+            },
+            {
+              "text": "Website",
+              "href": "https://www.nhs.uk/service-search/other-services/Alcohol-addiction/LocationSearch/1805",
+              "linkType": "pagelink"
+            },
+            {
+              "text": "Website",
+              "href": "https://www.gamcare.org.uk",
+              "linkType": "pagelink"
+            },
+            {
+              "text": "Gambling Therapy",
+              "href": "https://www.gamblingtherapy.org",
+              "linkType": "pagelink"
+            },
+            {
+              "text": "help@gordonmoody.org.uk",
+              "href": "mailto:help@gordonmoody.org.uk",
+              "linkType": "unknownlink"
+            },
+            {
+              "text": "Website",
+              "href": "https://www.gordonmoody.org.uk",
+              "linkType": "pagelink"
+            },
+            {
+              "text": "here.",
+              "href": "https://www.peoplehub.org.uk/category/resources/",
+              "linkType": "pagelink"
+            },
+            {
+              "text": "Website",
+              "href": "https://www.macmillan.org.uk",
+              "linkType": "pagelink"
+            },
+            {
+              "text": "website",
+              "href": "https://wavelength.org.uk/apply-for-help/",
+              "linkType": "pagelink"
+            },
+            {
+              "text": "Website",
+              "href": "https://www.ageuk.org.uk",
+              "linkType": "pagelink"
+            },
+            {
+              "text": "Website",
+              "href": "https://www.elderabuse.org.uk",
+              "linkType": "pagelink"
+            },
+            {
+              "text": "Website",
+              "href": "https://www.mencap.org.uk/",
+              "linkType": "pagelink"
+            }
+          ]
+        },
+        {
           "text": "socialprogramme@monzo.com",
           "href": "mailto:socialprogramme@monzo.com",
           "linkType": "unknownlink"
@@ -4020,29 +3854,7 @@
                 {
                   "text": "Last month",
                   "href": "https://monzo.com/blog/2018/05/16/gambling-self-exclusion/",
-                  "linkType": "pagelink",
-                  "children": [
-                    {
-                      "text": "According to the Royal College of Psychiatrists",
-                      "href": "https://www.rcpsych.ac.uk/healthadvice/problemsanddisorders/problemgambling.aspx",
-                      "linkType": "pagelink"
-                    },
-                    {
-                      "text": "bank account",
-                      "href": "https://monzo.com/i/current-account",
-                      "linkType": "pagelink"
-                    },
-                    {
-                      "text": "A paper from the Money and Mental Health Policy Institute",
-                      "href": "https://www.moneyandmentalhealth.org/wp-content/uploads/2017/11/Know-the-odds-Gambling-policy-note.pdf",
-                      "linkType": "pagelink"
-                    },
-                    {
-                      "text": "community forum",
-                      "href": "https://community.monzo.com/t/supporting-people-to-self-exclude-from-gambling/38062",
-                      "linkType": "pagelink"
-                    }
-                  ]
+                  "linkType": "pagelink"
                 },
                 {
                   "text": "the feedback and experiences you shared with us",
@@ -4052,6 +3864,11 @@
                 {
                   "text": "Gamstop",
                   "href": "https://www.gamstop.co.uk/",
+                  "linkType": "pagelink"
+                },
+                {
+                  "text": "Gamban",
+                  "href": "https://gamban.com/",
                   "linkType": "pagelink"
                 },
                 {
@@ -4084,86 +3901,7 @@
                 {
                   "text": "Vulnerable Customers team",
                   "href": "https://monzo.com/blog/2018/05/15/meet-vulnerable-customers-team/",
-                  "linkType": "pagelink",
-                  "children": [
-                    {
-                      "text": "defines a vulnerable customer",
-                      "href": "https://www.fca.org.uk/publication/occasional-papers/occasional-paper-8-exec-summary.pdf",
-                      "linkType": "pagelink"
-                    },
-                    {
-                      "text": "TEXAS",
-                      "href": "https://www.fca.org.uk/publication/occasional-papers/occasional-paper-8-practitioners-pack.pdf",
-                      "linkType": "pagelink"
-                    },
-                    {
-                      "text": "how we can use design to help support",
-                      "href": "https://monzo.com/blog/2017/01/27/designing-product-mental-health-mind/",
-                      "linkType": "pagelink",
-                      "children": [
-                        {
-                          "text": "13,000,000 adults",
-                          "href": "http://www.mind.org.uk/information-support/types-of-mental-health-problems/statistics-and-facts-about-mental-health/how-common-are-mental-health-problems/",
-                          "linkType": "pagelink"
-                        },
-                        {
-                          "text": "Polly Mackenzie",
-                          "href": "https://twitter.com/pollymackenzie?lang=en",
-                          "linkType": "pagelink"
-                        },
-                        {
-                          "text": "Money \u0026 Mental Health Policy Institute",
-                          "href": "http://www.moneyandmentalhealth.org/",
-                          "linkType": "pagelink"
-                        },
-                        {
-                          "text": "read about",
-                          "href": "http://www.bbc.co.uk/news/business-38722210",
-                          "linkType": "pagelink"
-                        },
-                        {
-                          "text": "declined 43%",
-                          "href": "https://opinionator.blogs.nytimes.com/2013/06/02/a-simple-way-to-reduce-suicides/",
-                          "linkType": "pagelink"
-                        },
-                        {
-                          "text": "accessibility options on iOS",
-                          "href": "http://www.apple.com/uk/accessibility/iphone/",
-                          "linkType": "pagelink"
-                        },
-                        {
-                          "text": "\n",
-                          "href": "/static/images/blog/2017-01-27-designing-mental-health-mind/1-review@2x.png",
-                          "err": {},
-                          "linkType": "pathlink"
-                        },
-                        {
-                          "text": "\n",
-                          "href": "/static/images/blog/2017-01-27-designing-mental-health-mind/2-alert@2x.png",
-                          "err": {},
-                          "linkType": "pathlink"
-                        },
-                        {
-                          "text": "\n",
-                          "href": "/static/images/blog/2017-01-27-designing-mental-health-mind/4-suggest@2x.png",
-                          "err": {},
-                          "linkType": "pathlink"
-                        },
-                        {
-                          "text": "\n",
-                          "href": "/static/images/blog/2017-01-27-designing-mental-health-mind/3-contact@2x.png",
-                          "err": {},
-                          "linkType": "pathlink"
-                        },
-                        {
-                          "text": "Read more from Zander",
-                          "href": "/blog/author/zander-brade",
-                          "err": {},
-                          "linkType": "pathlink"
-                        }
-                      ]
-                    }
-                  ]
+                  "linkType": "pagelink"
                 },
                 {
                   "text": "block gambling spending from your Monzo account",
@@ -4426,6 +4164,48 @@
               "linkType": "pathlink"
             }
           ]
+        },
+        {
+          "text": "13 September 2023",
+          "href": "/blog/weve-improved-our-gambling-block",
+          "err": {},
+          "linkType": "pathlink"
+        },
+        {
+          "text": "27 June 2022",
+          "href": "/blog/the-extra-costs-of-living-with-adhd",
+          "err": {},
+          "linkType": "pathlink"
+        },
+        {
+          "text": "12 May 2021",
+          "href": "/blog/2021/05/13/supporting-our-customers-through-mental-health-problems",
+          "err": {},
+          "linkType": "pathlink"
+        },
+        {
+          "text": "17 May 2020",
+          "href": "/blog/5-practical-tips-for-feeling-less-lonely-in-lockdown",
+          "err": {},
+          "linkType": "pathlink"
+        },
+        {
+          "text": "17 May 2020",
+          "href": "/blog/3-practical-tips-to-reduce-daily-anxiety",
+          "err": {},
+          "linkType": "pathlink"
+        },
+        {
+          "text": "27 April 2020",
+          "href": "/blog/how-monzos-gambling-block-and-self-exclusion-helped-me-beat-gambling-addiction-and-pay-off-debt",
+          "err": {},
+          "linkType": "pathlink"
+        },
+        {
+          "text": "Read more",
+          "href": "/blog/topic/mental-health",
+          "err": {},
+          "linkType": "pathlink"
         }
       ]
     },
@@ -4547,12 +4327,6 @@
           "linkType": "pagelink",
           "children": [
             {
-              "text": "Published in: ",
-              "href": "/blog/topic/diversity-and-inclusion",
-              "err": {},
-              "linkType": "pathlink"
-            },
-            {
               "text": "our last update in 2020",
               "href": "https://monzo.com/blog/our-2020-diversity-and-inclusion-report",
               "linkType": "pagelink",
@@ -4560,46 +4334,7 @@
                 {
                   "text": "2019 report",
                   "href": "https://monzo.com/blog/2019/03/21/diversity-and-inclusion",
-                  "linkType": "pagelink",
-                  "children": [
-                    {
-                      "text": "here",
-                      "href": "https://monzo.com/blog/mental-health/",
-                      "linkType": "pagelink"
-                    },
-                    {
-                      "text": "our gender pay gap in 2017 and 2018",
-                      "href": "https://monzo.com/blog/2018/04/12/gender-pay-gap/",
-                      "linkType": "pagelink"
-                    },
-                    {
-                      "text": "the Women in Finance Charter",
-                      "href": "https://monzo.com/blog/2018/11/20/women-in-finance-update/",
-                      "linkType": "pagelink",
-                      "children": [
-                        {
-                          "text": "diversity and inclusion",
-                          "href": "https://monzo.com/blog/2018/03/22/diversity-and-inclusion/",
-                          "linkType": "pagelink"
-                        }
-                      ]
-                    },
-                    {
-                      "text": "London's demographic data",
-                      "href": "https://www.ethnicity-facts-figures.service.gov.uk/british-population/national-and-regional-populations/regional-ethnic-diversity/latest",
-                      "linkType": "pagelink"
-                    },
-                    {
-                      "text": "Carers UK",
-                      "href": "https://www.carersuk.org/news-and-campaigns/press-releases/facts-and-figures",
-                      "linkType": "pagelink"
-                    },
-                    {
-                      "text": "community forum",
-                      "href": "https://community.monzo.com/t/an-update-on-diversity-and-inclusion-march-2019/63128",
-                      "linkType": "pagelink"
-                    }
-                  ]
+                  "linkType": "pagelink"
                 },
                 {
                   "text": "Royal Association for Deaf People",
@@ -4619,21 +4354,7 @@
                 {
                   "text": "Women in Finance Charter",
                   "href": "https://monzo.com/blog/women-in-finance-charter-update",
-                  "linkType": "pagelink",
-                  "children": [
-                    {
-                      "text": "Published in: ",
-                      "href": "/blog/topic/team",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "Read more from Jacquetta",
-                      "href": "/blog/author/jacquetta-bridge",
-                      "err": {},
-                      "linkType": "pathlink"
-                    }
-                  ]
+                  "linkType": "pagelink"
                 },
                 {
                   "text": "U.K.",
@@ -4653,50 +4374,7 @@
                 {
                   "text": "neurodiversity",
                   "href": "https://monzo.com/blog/supporting-neurodiversity-at-monzo",
-                  "linkType": "pagelink",
-                  "children": [
-                    {
-                      "text": "Published in: ",
-                      "href": "/blog/topic/monzo-hq",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "here",
-                      "href": "https://neurodiversitysymposium.wordpress.com/what-is-neurodiversity/",
-                      "linkType": "pagelink"
-                    },
-                    {
-                      "text": "About 1% of the global population",
-                      "href": "https://www.womenofsiliconvalley.com/blog/neurodiversity-in-silicon-valley",
-                      "linkType": "pagelink"
-                    },
-                    {
-                      "text": "approximately 1 in 10 people",
-                      "href": "https://www.bdadyslexia.org.uk/",
-                      "linkType": "pagelink"
-                    },
-                    {
-                      "text": "Autism and Quarantine - Neuroclastic",
-                      "href": "https://neuroclastic.com/2020/03/19/autism-and-quarantine/",
-                      "linkType": "pagelink"
-                    },
-                    {
-                      "text": "Coping with the uncertainty of COVID-19 - Autistica",
-                      "href": "https://www.autistica.org.uk/what-is-autism/coping-with-uncertainty",
-                      "linkType": "pagelink"
-                    },
-                    {
-                      "text": "Tips For Supporting Neurodiversity In The Workplace - Forbes",
-                      "href": "https://www.forbes.com/sites/rebekahbastian/2019/10/23/tips-for-supporting-neurodiversity-in-the-workplace/#3157fca3f8c7",
-                      "linkType": "pagelink"
-                    },
-                    {
-                      "text": "Why employers should be hiring with neurodiversity in mind - People Management",
-                      "href": "https://www.peoplemanagement.co.uk/long-reads/articles/employers-hiring-neurodiversity#_ga=2.98377951.1742856913.1582118304-1039651572.1580477385",
-                      "linkType": "pagelink"
-                    }
-                  ]
+                  "linkType": "pagelink"
                 },
                 {
                   "text": "CIPD",
@@ -4741,7 +4419,6 @@
                 {
                   "text": "Read more from Sheree",
                   "href": "/blog/author/sheree-atcheson",
-                  "err": {},
                   "linkType": "pathlink"
                 }
               ]
@@ -4759,7 +4436,6 @@
                 {
                   "text": "Read more from Tara",
                   "href": "/blog/author/tara-ryan",
-                  "err": {},
                   "linkType": "pathlink"
                 }
               ]
@@ -4772,11 +4448,6 @@
             {
               "text": "the 2011 census",
               "href": "https://www.ethnicity-facts-figures.service.gov.uk/uk-population-by-ethnicity/national-and-regional-populations/regional-ethnic-diversity/latest",
-              "linkType": "pagelink"
-            },
-            {
-              "text": "Coding Black Females",
-              "href": "https://codingblackfemales.com/",
               "linkType": "pagelink"
             },
             {
@@ -4807,536 +4478,22 @@
                 {
                   "text": "here",
                   "href": "https://monzo.com/blog/bereavments-how-we-can-help-if-someone-with-a-monzo-account-dies",
-                  "linkType": "pagelink",
-                  "children": [
-                    {
-                      "text": "practical guide.",
-                      "href": "https://monzo.com/documents/bereavement-guide.pdf",
-                      "err": {},
-                      "linkType": "pagelink"
-                    },
-                    {
-                      "text": "government website",
-                      "href": "https://www.gov.uk/inherits-someone-dies-without-will",
-                      "linkType": "pagelink"
-                    },
-                    {
-                      "text": "Citizen’s Advice",
-                      "href": "https://www.citizensadvice.org.uk/family/death-and-wills/what-to-do-after-a-death/",
-                      "linkType": "pagelink"
-                    },
-                    {
-                      "text": "here",
-                      "href": "https://www.gov.uk/closing-a-limited-company",
-                      "linkType": "pagelink"
-                    },
-                    {
-                      "text": "here",
-                      "href": "https://help.crowdcube.com/hc/en-us/requests/new",
-                      "linkType": "pagelink"
-                    },
-                    {
-                      "text": "grant of probate",
-                      "href": "https://www.which.co.uk/money/wills-and-probate/probate",
-                      "linkType": "pagelink"
-                    },
-                    {
-                      "text": "Death Notification Service",
-                      "href": "https://www.deathnotificationservice.co.uk/",
-                      "linkType": "pagelink"
-                    },
-                    {
-                      "text": "Settld",
-                      "href": "https://www.settld.care/what-to-do-when-an-account-holder-dies/banking/monzo/",
-                      "linkType": "pagelink"
-                    },
-                    {
-                      "text": "Tell Us Once",
-                      "href": "https://www.gov.uk/after-a-death/organisations-you-need-to-contact-and-tell-us-once",
-                      "linkType": "pagelink"
-                    },
-                    {
-                      "text": "Cruse",
-                      "href": "https://www.cruse.org.uk/about-cruse",
-                      "linkType": "pagelink"
-                    },
-                    {
-                      "text": "The Bereavement Advice",
-                      "href": "https://www.bereavementadvice.org/",
-                      "linkType": "pagelink"
-                    },
-                    {
-                      "text": "Mind",
-                      "href": "https://www.mind.org.uk/information-support/guides-to-support-and-services/bereavement/about-bereavement/",
-                      "linkType": "pagelink"
-                    },
-                    {
-                      "text": "Read more from Aongola",
-                      "href": "/blog/author/aongola-victor-simuyemba",
-                      "err": {},
-                      "linkType": "pathlink"
-                    }
-                  ]
+                  "linkType": "pagelink"
                 },
                 {
                   "text": "Monzo 101",
                   "href": "https://monzo.com/blog/monzo-101",
-                  "linkType": "pagelink",
-                  "children": [
-                    {
-                      "text": "Monzo 101",
-                      "href": "/blog/dont-get-monzo",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "Monzo 101",
-                      "href": "/blog/research-findings-at-monzo",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "Monzo 101",
-                      "href": "/blog/2020-01-01/switch-to-monzo-without-closing-your-old-account",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "Monzo 101",
-                      "href": "/blog/2019/12/05/what-you-need-to-know-about-going-full-monzo",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "Monzo 101",
-                      "href": "/blog/how-to-open-a-monzo-account",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "Monzo 101",
-                      "href": "/blog/2019/11/11/unlock-the-monzo-app-with-your-fingerprint",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "Monzo 101",
-                      "href": "/blog/2019/11/11/10-monzo-features-your-old-bank-doesnt-have-yet",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "Monzo 101",
-                      "href": "/blog/10-magical-monzo-features",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "Monzo 101",
-                      "href": "/blog/10-times-you-hated-monzo",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "Monzo 101",
-                      "href": "/blog/2019/10/28/more-people-are-switching-to-monzo-and-away-from-legacy-banks",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "Monzo 101",
-                      "href": "/blog/2019/10/24/15-features-thatll-turn-monzo-sceptics-into-monzo-obsessives",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "Monzo 101",
-                      "href": "/blog/2019/10/24/9-monzo-features-and-why-you-need-them",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "Monzo 101",
-                      "href": "/blog/2019/10/14/39-times-you-absolutely-hated-monzo",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "Monzo 101",
-                      "href": "/blog/2019/10/11/10-things-to-say-to-your-friend-who-still-refuses-to-get-monzo",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "Monzo 101",
-                      "href": "/blog/2019/10/11/4-ways-monzo-makes-payday-even-better",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "2",
-                      "href": "/blog/topic/monzo-101/page/2",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "3",
-                      "href": "/blog/topic/monzo-101/page/3",
-                      "err": {},
-                      "linkType": "pathlink"
-                    }
-                  ]
+                  "linkType": "pagelink"
                 },
                 {
                   "text": "How Money Works",
                   "href": "https://monzo.com/blog/how-money-works",
-                  "linkType": "pagelink",
-                  "children": [
-                    {
-                      "text": "How Money Works",
-                      "href": "/blog/protect-money-boundaries-maintain-social-life",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "How Money Works",
-                      "href": "/blog/emotional-spending-tips",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "How Money Works",
-                      "href": "/blog/relationship-money-communication-tips",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "How Money Works",
-                      "href": "/blog/budgeting-tips-wedding-season",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "How Money Works",
-                      "href": "/blog/travel-scams-protect-yourself",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "How Money Works",
-                      "href": "/blog/festival-money-saving-tips",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "How Money Works",
-                      "href": "/blog/how-to-save-for-a-wedding-using-monzo",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "How Money Works",
-                      "href": "/blog/managing-money-group-holidays-monzo",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "How Money Works",
-                      "href": "/blog/how-to-save-for-travel-spontaneity-fund",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "How Money Works",
-                      "href": "/blog/how-to-save-for-summer",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "How Money Works",
-                      "href": "/blog/using-monzo-in-the-uk-after-holiday",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "How Money Works",
-                      "href": "/blog/2023/04/28/payday-tips-while-treating-yourself",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "How Money Works",
-                      "href": "/blog/managing-money-with-pets",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "How Money Works",
-                      "href": "/blog/2023/03/24/how-to-do-a-no-spend-challenge",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "How Money Works",
-                      "href": "/blog/2023/03/17/deinfluencing-mindful-shopping-tips",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "2",
-                      "href": "/blog/topic/how-money-works/page/2",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "3",
-                      "href": "/blog/topic/how-money-works/page/3",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "Oldest",
-                      "href": "/blog/topic/how-money-works/page/12",
-                      "err": {},
-                      "linkType": "pathlink"
-                    }
-                  ]
+                  "linkType": "pagelink"
                 },
                 {
                   "text": "Accessing cash via an ATM",
                   "href": "https://monzo.com/blog/2018/11/21/deposit-cash",
-                  "linkType": "pagelink",
-                  "children": [
-                    {
-                      "text": "over 6.4 billion payments made in 2022",
-                      "href": "https://www.ukfinance.org.uk/news-and-insight/press-release/half-all-payments-now-made-using-debit-cards#:~:text=The%20long%2Drunning%20trend%20in,(2021%3A%206%20billion).",
-                      "linkType": "pagelink"
-                    },
-                    {
-                      "text": "we don’t have branches",
-                      "href": "https://monzo.com/blog/2018/06/22/why-doesnt-monzo-have-branches/",
-                      "linkType": "pagelink",
-                      "children": [
-                        {
-                          "text": "a fully-licenced UK bank,",
-                          "href": "https://monzo.com/blog/2017/04/05/banking-licence/",
-                          "linkType": "pagelink",
-                          "children": [
-                            {
-                              "text": "then Mondo",
-                              "href": "https://monzo.com/blog/2016/08/25/monzo/",
-                              "linkType": "pagelink",
-                              "children": [
-                                {
-                                  "text": "announced",
-                                  "href": "https://monzo.com/blog/2016/06/13/new-mondo-changing-our-name/",
-                                  "linkType": "pagelink",
-                                  "children": [
-                                    {
-                                      "text": "Read more from Bailey",
-                                      "href": "/blog/author/bailey-kursar",
-                                      "err": {},
-                                      "linkType": "pathlink"
-                                    }
-                                  ]
-                                },
-                                {
-                                  "text": "these stylish hoodies",
-                                  "href": "https://monzo.com/static/images/blog/2016-08-25-monzo/hoodie.jpg",
-                                  "err": {},
-                                  "linkType": "pagelink"
-                                },
-                                {
-                                  "text": "monzobank",
-                                  "href": "https://facebook.com/monzobank",
-                                  "linkType": "pagelink"
-                                },
-                                {
-                                  "text": "here",
-                                  "href": "https://www.youtube.com/watch?v=QJbUw5kcZiQ",
-                                  "linkType": "pagelink"
-                                }
-                              ]
-                            },
-                            {
-                              "text": "wrote",
-                              "href": "https://monzo.com/blog/2015/06/01/welcome-to-mondo/",
-                              "linkType": "pagelink"
-                            },
-                            {
-                              "text": "Alpha",
-                              "href": "https://monzo.com/blog/2015/10/30/we-are-ready/",
-                              "linkType": "pagelink"
-                            },
-                            {
-                              "text": "fastest crowdfunding campaign",
-                              "href": "https://monzo.com/blog/2016/03/03/crowdfunded/",
-                              "linkType": "pagelink"
-                            },
-                            {
-                              "text": "restricted banking licence",
-                              "href": "https://monzo.com/blog/2016/08/11/we-are-now-a-bank/",
-                              "linkType": "pagelink",
-                              "children": [
-                                {
-                                  "text": "Published in: ",
-                                  "href": "/blog/topic/community",
-                                  "err": {},
-                                  "linkType": "pathlink"
-                                },
-                                {
-                                  "text": "Beta",
-                                  "href": "https://monzo.com/blog/2016/03/17/beta/",
-                                  "linkType": "pagelink",
-                                  "children": [
-                                    {
-                                      "text": "after we launched our Alpha Preview",
-                                      "href": "/blog/2015/10/30/we-are-ready/",
-                                      "err": {},
-                                      "linkType": "pathlink"
-                                    },
-                                    {
-                                      "text": "\n    ",
-                                      "href": "",
-                                      "linkType": "unknownlink"
-                                    },
-                                    {
-                                      "text": "If you're an Android developer, come and help us!",
-                                      "href": "https://mondo.workable.com/jobs/183279",
-                                      "linkType": "pagelink"
-                                    },
-                                    {
-                                      "text": "Twitter",
-                                      "href": "https://twitter.com/monzo/",
-                                      "linkType": "pagelink"
-                                    },
-                                    {
-                                      "text": "email us",
-                                      "href": "mailto:hello@monzo.com",
-                                      "linkType": "unknownlink"
-                                    }
-                                  ]
-                                },
-                                {
-                                  "text": "officially a bank in the UK",
-                                  "href": "https://register.fca.org.uk/ShPo_FirmDetailsPage?id=001b000002syvKiAAI",
-                                  "linkType": "pagelink"
-                                },
-                                {
-                                  "text": "social media accounts",
-                                  "href": "https://twitter.com/getmondo",
-                                  "linkType": "pagelink"
-                                }
-                              ]
-                            },
-                            {
-                              "text": "second crowdfunding campaign",
-                              "href": "https://monzo.com/blog/2017/03/14/12000000/",
-                              "linkType": "pagelink",
-                              "children": [
-                                {
-                                  "text": "Twitter",
-                                  "href": "https://twitter.com/monzo",
-                                  "linkType": "pagelink"
-                                },
-                                {
-                                  "text": "recent investment round",
-                                  "href": "https://monzo.com/blog/2017/02/23/fundraising-announcement/",
-                                  "linkType": "pagelink"
-                                },
-                                {
-                                  "text": "forum",
-                                  "href": "https://community.monzo.com",
-                                  "linkType": "pagelink"
-                                },
-                                {
-                                  "text": "support page",
-                                  "href": "https://help.crowdcube.com/hc/en-us",
-                                  "linkType": "pagelink"
-                                },
-                                {
-                                  "text": "Read more from Tristan",
-                                  "href": "/blog/author/tristan-thomas",
-                                  "err": {},
-                                  "linkType": "pathlink"
-                                }
-                              ]
-                            },
-                            {
-                              "text": "Monzo.me",
-                              "href": "https://monzo.com/blog/2016/12/07/monzo-me/",
-                              "err": {},
-                              "linkType": "pagelink"
-                            },
-                            {
-                              "text": "Targets",
-                              "href": "https://monzo.com/blog/2016/10/03/targets/",
-                              "linkType": "pagelink"
-                            },
-                            {
-                              "text": "open and transparent",
-                              "href": "https://monzo.com/blog/2017/03/06/transparency-dashboard/",
-                              "linkType": "pagelink"
-                            },
-                            {
-                              "text": "business bank account for current Monzo customers",
-                              "href": "https://monzo.com/i/business",
-                              "linkType": "pagelink"
-                            },
-                            {
-                              "text": "Read more from Tom",
-                              "href": "/blog/author/tom-blomfield",
-                              "err": {},
-                              "linkType": "pathlink"
-                            }
-                          ]
-                        },
-                        {
-                          "text": "overdraft",
-                          "href": "https://monzo.com/features/overdrafts/",
-                          "linkType": "pagelink"
-                        },
-                        {
-                          "text": "open an account with us in minutes,",
-                          "href": "https://monzo.com/blog/2017/11/03/simple-signup-kyc/",
-                          "err": {},
-                          "linkType": "pagelink"
-                        },
-                        {
-                          "text": "Find your nearest post box",
-                          "href": "http://dracos.co.uk/made/nearest-postbox/",
-                          "linkType": "pagelink"
-                        },
-                        {
-                          "text": "blog post",
-                          "href": "https://monzo.com/blog/2018/06/21/paying-cheques-into-monzo/",
-                          "err": {},
-                          "linkType": "pagelink"
-                        },
-                        {
-                          "text": "their previous logo",
-                          "href": "http://www.blackburn.gov.uk/PublishingImages/paypoint-logo.jpg",
-                          "linkType": "pagelink"
-                        },
-                        {
-                          "text": "handy tool",
-                          "href": "https://consumer.paypoint.com/",
-                          "linkType": "pagelink"
-                        },
-                        {
-                          "text": "the community forum",
-                          "href": "https://community.monzo.com/t/why-doesn-t-monzo-have-branches/40619",
-                          "linkType": "pagelink"
-                        }
-                      ]
-                    },
-                    {
-                      "text": "Read more from David",
-                      "href": "/blog/author/david-brandon",
-                      "err": {},
-                      "linkType": "pathlink"
-                    }
-                  ]
+                  "linkType": "pagelink"
                 },
                 {
                   "text": "depositing cash using PayPoint.",
@@ -5346,75 +4503,9 @@
                 {
                   "text": "we can support you in periods of poor mental health.",
                   "href": "https://monzo.com/blog/mental-health",
-                  "linkType": "pagelink",
-                  "children": [
-                    {
-                      "text": "Mental Health",
-                      "href": "/blog/2019/05/13/supporting-vulnerable-customers",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "Mental Health",
-                      "href": "/blog/2019/05/15/national-numeracy-challenge",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "Mental Health",
-                      "href": "/blog/2019/05/15/supporting-mental-health",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "Mental Health",
-                      "href": "/blog/2019/01/30/mental-health/",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "Mental Health",
-                      "href": "/blog/2018/06/19/gambling-block-self-exclusion",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "Mental Health",
-                      "href": "/blog/2018/05/18/voluntary-disclosure",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "Mental Health",
-                      "href": "/blog/2018/05/16/gambling-self-exclusion",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "2",
-                      "href": "/blog/topic/mental-health/page/2",
-                      "err": {},
-                      "linkType": "pathlink"
-                    }
-                  ]
+                  "linkType": "pagelink"
                 }
               ]
-            },
-            {
-              "text": "25.0% of adults experience mental illness at some point in their lives",
-              "href": "https://www.england.nhs.uk/mental-health/",
-              "linkType": "pagelink"
-            },
-            {
-              "text": "careers page",
-              "href": "https://monzo.com/careers/",
-              "linkType": "pagelink"
-            },
-            {
-              "text": "Read more from Kirsten",
-              "href": "/blog/author/kirsten-doherty",
-              "err": {},
-              "linkType": "pathlink"
             }
           ]
         },
@@ -5446,6 +4537,12 @@
           "linkType": "pagelink",
           "children": [
             {
+              "text": "Published in: ",
+              "href": "/blog/topic/diversity-and-inclusion",
+              "err": {},
+              "linkType": "pathlink"
+            },
+            {
               "text": "Women in Tech Forum",
               "href": "https://www.linkedin.com/posts/monzo-bank_diversityequityinclusion-femaleempowerment-activity-6934474526390927360-IjXB?utm_source=share\u0026utm_medium=member_desktop",
               "linkType": "pagelink"
@@ -5453,6 +4550,11 @@
             {
               "text": "Women in Data Science",
               "href": "https://stayhappening.com/e/women-in-data-science-wids-london-2022-conference-E3LUV7RGQ4X7",
+              "linkType": "pagelink"
+            },
+            {
+              "text": "Coding Black Females",
+              "href": "https://codingblackfemales.com/",
               "linkType": "pagelink"
             },
             {
@@ -5473,6 +4575,11 @@
             {
               "text": "29% of people with autism aged 16 to 64 years are employed in the UK",
               "href": "https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/disability/articles/outcomesfordisabledpeopleintheuk/2021",
+              "linkType": "pagelink"
+            },
+            {
+              "text": "25.0% of adults experience a mental health condition",
+              "href": "https://www.england.nhs.uk/mental-health/",
               "linkType": "pagelink"
             },
             {
@@ -5519,6 +4626,11 @@
                   "text": "notifications about upcoming bills",
                   "href": "http://manage",
                   "linkType": "pagelink"
+                },
+                {
+                  "text": "Read more from Team",
+                  "href": "/blog/author/team-monzo",
+                  "linkType": "pathlink"
                 }
               ]
             },
@@ -5530,55 +4642,11 @@
                 {
                   "text": "find out how to set that up here",
                   "href": "https://monzo.com/help/budgeting-overdrafts-savings/web-bill-pots",
-                  "linkType": "pagelink",
-                  "children": [
-                    {
-                      "text": "Pots, budgeting and saving",
-                      "href": "/help/budgeting-overdrafts-savings/",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "here",
-                      "href": "https://contentful-previews.tools.prod.prod-ffs.io/help/monzo-perks/trends-custom-categories-web/%5D",
-                      "linkType": "pagelink"
-                    },
-                    {
-                      "text": "Understanding Pots",
-                      "href": "/help/budgeting-overdrafts-savings/what-is-a-pot/",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "Creating Pots",
-                      "href": "/help/budgeting-overdrafts-savings/create-pot-app/",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "Adding and withdrawing money from Pots",
-                      "href": "/help/budgeting-overdrafts-savings/moving-money-to-from-pots/",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "Adding and withdrawing money from hidden Pots",
-                      "href": "/help/budgeting-overdrafts-savings/add-withdraw-hidden-pots/",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "Reordering Pots",
-                      "href": "/help/budgeting-overdrafts-savings/reorder-pots/",
-                      "err": {},
-                      "linkType": "pathlink"
-                    }
-                  ]
+                  "linkType": "pagelink"
                 },
                 {
                   "text": "Read more from Neil",
                   "href": "/blog/author/neil-mckeown",
-                  "err": {},
                   "linkType": "pathlink"
                 }
               ]
@@ -5587,6 +4655,17 @@
               "text": "Financial Services Culture Board",
               "href": "https://financialservicescultureboard.org.uk/",
               "linkType": "pagelink"
+            },
+            {
+              "text": "careers page",
+              "href": "https://monzo.com/careers/",
+              "linkType": "pagelink"
+            },
+            {
+              "text": "Read more from Kirsten",
+              "href": "/blog/author/kirsten-doherty",
+              "err": {},
+              "linkType": "pathlink"
             }
           ]
         }
@@ -5829,59 +4908,23 @@
                 {
                   "text": "Stripe’s fees and Ts\u0026Cs apply.",
                   "href": "https://monzo.com/help/business-getpaid/business-getpaid-pricing",
-                  "linkType": "pagelink",
-                  "children": [
-                    {
-                      "text": "Sign Up",
-                      "href": "https://app.adjust.com/ydi27sn_9mq4ox7?engagement_type=fallback_click\u0026fallback=https%3A%2F%2Fmonzo.com%2Fdownload\u0026redirect_macos=https%3A%2F%2Fmonzo.com%2Fdownload",
-                      "linkType": "pagelink"
-                    },
-                    {
-                      "text": "Monzo Business: Get Paid",
-                      "href": "/help/business-getpaid/",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "website",
-                      "href": "https://support.stripe.com/questions/what-s-the-difference-between-standard-and-premium-cards",
-                      "linkType": "pagelink"
-                    },
-                    {
-                      "text": "How do I sign up to accept card payments?",
-                      "href": "/help/business-getpaid/business-getpaid-stripe-signup-web/",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "Creating and sharing payment links",
-                      "href": "/help/business-getpaid/business-getpaid-paymentlinks-createandshare/",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "Creating and sharing payment links for Invoices",
-                      "href": "/help/business-getpaid/business-getpaid-paymentlinks-invoices/",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "Managing payment links and invoices once created",
-                      "href": "/help/business-getpaid/business-getpaid-paymentlinks-managing/",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "Accepting easy bank transfers from a payment link",
-                      "href": "/help/business-getpaid/business-getpaid-easybanktransfers/",
-                      "err": {},
-                      "linkType": "pathlink"
-                    }
-                  ]
+                  "linkType": "pagelink"
                 },
                 {
                   "text": "View Tap to Pay on iPhone countries and regions",
                   "href": "https://developer.apple.com/tap-to-pay/#regions",
+                  "linkType": "pagelink"
+                }
+              ]
+            },
+            {
+              "text": "invoice",
+              "href": "https://monzo.com/i/business/features/invoices/",
+              "linkType": "pagelink",
+              "children": [
+                {
+                  "text": "Join Monzo",
+                  "href": "https://monzo.com/download/",
                   "linkType": "pagelink"
                 }
               ]
@@ -5923,7 +4966,14 @@
             {
               "text": "credit score",
               "href": "https://monzo.com/blog/2018/08/09/what-is-a-credit-score/",
-              "linkType": "pagelink"
+              "linkType": "pagelink",
+              "children": [
+                {
+                  "text": "Published in: ",
+                  "href": "/blog/topic/how-money-works",
+                  "linkType": "pathlink"
+                }
+              ]
             },
             {
               "text": " here",
@@ -6153,7 +5203,6 @@
                 {
                   "text": "Start switch",
                   "href": "/-deeplinks/cass",
-                  "err": {},
                   "linkType": "pathlink"
                 }
               ]
@@ -6178,55 +5227,46 @@
                 {
                   "text": "Version 1.8",
                   "href": "/legal/business-account-fee-information/version-1-8/",
-                  "err": {},
                   "linkType": "pathlink"
                 },
                 {
                   "text": "Version 1.7",
                   "href": "/legal/business-account-fee-information/version-1-7/",
-                  "err": {},
                   "linkType": "pathlink"
                 },
                 {
                   "text": "Version 1.6",
                   "href": "/legal/business-account-fee-information/version-1-6/",
-                  "err": {},
                   "linkType": "pathlink"
                 },
                 {
                   "text": "Version 1.5",
                   "href": "/legal/business-account-fee-information/version-1-5/",
-                  "err": {},
                   "linkType": "pathlink"
                 },
                 {
                   "text": "Version 1.4",
                   "href": "/legal/business-account-fee-information/version-1-4/",
-                  "err": {},
                   "linkType": "pathlink"
                 },
                 {
                   "text": "Version 1.3",
                   "href": "/legal/business-account-fee-information/version-1-3/",
-                  "err": {},
                   "linkType": "pathlink"
                 },
                 {
                   "text": "Version 1.2",
                   "href": "/legal/business-account-fee-information/version-1-2/",
-                  "err": {},
                   "linkType": "pathlink"
                 },
                 {
                   "text": "Version 1.1",
                   "href": "/legal/business-account-fee-information/version-1-1/",
-                  "err": {},
                   "linkType": "pathlink"
                 },
                 {
                   "text": "Download as PDF",
                   "href": "/legal/files/business-account-fee-information/fee-information-1-8.pdf",
-                  "err": {},
                   "linkType": "pathlink"
                 }
               ]
@@ -6244,7 +5284,6 @@
                 {
                   "text": "Monzo Business: Make the most of your account",
                   "href": "/help/business-accounts/",
-                  "err": {},
                   "linkType": "pathlink"
                 },
                 {
@@ -6255,31 +5294,26 @@
                 {
                   "text": "Access rights on Monzo Business",
                   "href": "/help/business-accounts/business-account-access-rights/",
-                  "err": {},
                   "linkType": "pathlink"
                 },
                 {
                   "text": "Adding, removing and managing team members",
                   "href": "/help/business-accounts/add-and-manage-members/",
-                  "err": {},
                   "linkType": "pathlink"
                 },
                 {
                   "text": "Switching between Business Lite and Business Pro ",
                   "href": "/help/business-accounts/change-business-account-tier-web/",
-                  "err": {},
                   "linkType": "pathlink"
                 },
                 {
                   "text": "Paying in a cheque to your Monzo Business account by post",
                   "href": "/help/business-accounts/cheque-how-to-pay-business/",
-                  "err": {},
                   "linkType": "pathlink"
                 },
                 {
                   "text": "Paying in a cheque to your Monzo Business account in the app",
                   "href": "/help/business-accounts/cheque-how-to-pay-business-by-app/",
-                  "err": {},
                   "linkType": "pathlink"
                 }
               ]
@@ -6476,301 +5510,7 @@
                 {
                   "text": "here",
                   "href": "https://monzo.com/help/business-accounts-signup/business-verifying-persons-of-significant-control",
-                  "linkType": "pagelink",
-                  "children": [
-                    {
-                      "text": "Business",
-                      "href": "/i/business",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "Monzo Current Accounts",
-                      "href": "/i/current-account/",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "Monzo Plus Accounts",
-                      "href": "/i/monzo-plus/",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "Monzo Premium Accounts",
-                      "href": "/i/monzo-premium/",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "Monzo Business Accounts",
-                      "href": "/i/business/",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "Monzo Joint Accounts",
-                      "href": "/features/joint-accounts/",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "Monzo 16 - 17 Accounts",
-                      "href": "/features/16-plus/",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "Switch to Monzo",
-                      "href": "/i/switch/",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "Saving with Monzo",
-                      "href": "/i/savingwithmonzo/",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "Interest Rates",
-                      "href": "/features/savings/",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "Cash ISAs",
-                      "href": "/isa/",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "Overdrafts",
-                      "href": "/i/overdrafts/",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "Loans",
-                      "href": "/i/loans/",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "What are unsecured loans?",
-                      "href": "/blog/2019/11/12/what-are-unsecured-loans/",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "Pots",
-                      "href": "/i/pots/",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "Travelling with Monzo",
-                      "href": "/features/travel/",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "Bill splitting",
-                      "href": "/i/shared-tabs-more/",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "Making Monzo",
-                      "href": "/community/making-monzo/",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "Sign up",
-                      "href": "https://app.adjust.com/ydi27sn_9mq4ox7?engagement_type=fallback_click\u0026fallback=https://monzo.com/download\u0026redirect_macos=https://monzo.com/download",
-                      "linkType": "pagelink"
-                    },
-                    {
-                      "text": "here",
-                      "href": "https://www.gov.uk/guidance/people-with-significant-control-pscs",
-                      "linkType": "pagelink"
-                    },
-                    {
-                      "text": "any people with significant control who need to access your business account will need a personal account",
-                      "href": "https://monzo.com/help/opening-an-account/add-and-manage-members",
-                      "linkType": "pagelink",
-                      "children": [
-                        {
-                          "text": "Opening a Monzo account",
-                          "href": "/help/opening-an-account/",
-                          "err": {},
-                          "linkType": "pathlink"
-                        },
-                        {
-                          "text": "Signing up for a Business Account on the web",
-                          "href": "/help/opening-an-account/business-account-signup-start-on-web/",
-                          "err": {},
-                          "linkType": "pathlink"
-                        },
-                        {
-                          "text": "Applying for a Monzo Business account if you’ve got a personal or joint Monzo account  ",
-                          "href": "/help/opening-an-account/monzo-business-signup-existing-personal-account/",
-                          "err": {},
-                          "linkType": "pathlink"
-                        },
-                        {
-                          "text": "Applying for a Monzo Business account if you don’t have a personal or joint Monzo account ",
-                          "href": "/help/opening-an-account/business-account-signup-no-personal-account/",
-                          "err": {},
-                          "linkType": "pathlink"
-                        },
-                        {
-                          "text": "Eligibility for Monzo Business",
-                          "href": "/help/opening-an-account/eligible-businesses/",
-                          "err": {},
-                          "linkType": "pathlink"
-                        },
-                        {
-                          "text": "Using your Monzo current account as a business account",
-                          "href": "/help/opening-an-account/using-current-account-for-business/",
-                          "err": {},
-                          "linkType": "pathlink"
-                        }
-                      ]
-                    },
-                    {
-                      "text": "Signing up for a Business Account on the web",
-                      "href": "/help/business-accounts-signup/business-account-signup-start-on-web",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "Applying for a Monzo Business account if you’ve got a personal or joint Monzo account  ",
-                      "href": "/help/business-accounts-signup/monzo-business-signup-existing-personal-account",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "Applying for a Monzo Business account if you don’t have a personal or joint Monzo account ",
-                      "href": "/help/business-accounts-signup/business-account-signup-no-personal-account",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "Eligibility for Monzo Business",
-                      "href": "/help/business-accounts-signup/eligible-businesses",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "About us",
-                      "href": "/about/",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "Blog",
-                      "href": "/blog/",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "Press",
-                      "href": "/press/",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "Accessibility",
-                      "href": "/i/accessibility/",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "Lost your phone ",
-                      "href": "https://web.monzo.com",
-                      "linkType": "pagelink"
-                    },
-                    {
-                      "text": "Investor Information",
-                      "href": "/investor-information/",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "Supporting all our customers",
-                      "href": "/i/supporting-all-our-customers/",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "Helping everyone belong at Monzo",
-                      "href": "/i/helping-everyone-belong-at-monzo/",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "Coronavirus update",
-                      "href": "/i/coronavirus-update/",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "How we protect you",
-                      "href": "/i/fraud/",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "Our tone of voice",
-                      "href": "/tone-of-voice/",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "FAQ",
-                      "href": "/faq/",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "Privacy Notice",
-                      "href": "/legal/privacy-notice/",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "Cookie Notice",
-                      "href": "/legal/cookie-notice/",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "Browser Support Policy",
-                      "href": "/legal/browser-support-policy/",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "Mobile Operating System Support Policy",
-                      "href": "/legal/mobile-operating-system-support-policy/",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "Information about our Personal Current Account Services",
-                      "href": "/information-about-current-account-services/",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "App and Open Banking Performance",
-                      "href": "/service-information/",
-                      "err": {},
-                      "linkType": "pathlink"
-                    }
-                  ]
+                  "linkType": "pagelink"
                 }
               ]
             },
@@ -6869,6 +5609,12 @@
           "linkType": "pagelink",
           "children": [
             {
+              "text": "Help",
+              "href": "/help/",
+              "err": {},
+              "linkType": "pathlink"
+            },
+            {
               "text": "Payments: troubleshooting",
               "href": "/help/payments-troubleshooting/",
               "err": {},
@@ -6912,12 +5658,6 @@
           "linkType": "pagelink",
           "children": [
             {
-              "text": "Monzo account and profile",
-              "href": "/help/account-and-profile/",
-              "err": {},
-              "linkType": "pathlink"
-            },
-            {
               "text": "let us know here",
               "href": "monzo://dynamic_form?form_id=dynamic-form-builder:request-a-bank-statement\u0026metadata%5Bversion%5D=15",
               "linkType": "unknownlink"
@@ -6930,7 +5670,6 @@
                 {
                   "text": "The legal stuff",
                   "href": "/help/legal-stuff/",
-                  "err": {},
                   "linkType": "pathlink"
                 },
                 {
@@ -6941,38 +5680,58 @@
                 {
                   "text": "Deposit protection (FSCS)",
                   "href": "/help/legal-stuff/deposit-protection-fscs/",
-                  "err": {},
                   "linkType": "pathlink"
                 },
                 {
                   "text": "Why Monzo doesn't have branches",
                   "href": "/help/legal-stuff/branches/",
-                  "err": {},
                   "linkType": "pathlink"
                 },
                 {
                   "text": "Checking your tax status",
                   "href": "/help/legal-stuff/what-tax-status/",
-                  "err": {},
                   "linkType": "pathlink"
                 },
                 {
                   "text": "Checking your tax status as an EU citizen",
                   "href": "/help/legal-stuff/tax-residency-eu/",
-                  "err": {},
                   "linkType": "pathlink"
                 },
                 {
                   "text": "Checking your tax status as a US citizen",
                   "href": "/help/legal-stuff/tax-residency-us/",
-                  "err": {},
                   "linkType": "pathlink"
                 }
               ]
             },
             {
+              "text": "Why Monzo doesn't have branches",
+              "href": "/help/account-and-profile/branches/",
+              "err": {},
+              "linkType": "pathlink"
+            }
+          ]
+        },
+        {
+          "text": "payment limits",
+          "href": "https://monzo.com/help/account-and-profile/accountlimits/",
+          "linkType": "pagelink",
+          "children": [
+            {
+              "text": "Monzo account and profile",
+              "href": "/help/account-and-profile/",
+              "err": {},
+              "linkType": "pathlink"
+            },
+            {
               "text": "Your account number and sort code",
               "href": "/help/account-and-profile/account-number2/",
+              "err": {},
+              "linkType": "pathlink"
+            },
+            {
+              "text": "Getting a bank statement",
+              "href": "/help/account-and-profile/bank-statement-how-to/",
               "err": {},
               "linkType": "pathlink"
             },
@@ -6993,32 +5752,13 @@
               "href": "/help/account-and-profile/tax-residency-us/",
               "err": {},
               "linkType": "pathlink"
-            },
-            {
-              "text": "Why Monzo doesn't have branches",
-              "href": "/help/account-and-profile/branches/",
-              "err": {},
-              "linkType": "pathlink"
             }
           ]
-        },
-        {
-          "text": "payment limits",
-          "href": "https://monzo.com/help/account-and-profile/accountlimits/",
-          "linkType": "pagelink"
         },
         {
           "text": "gambling or spending block",
           "href": "https://monzo.com/help/account-and-profile/gambling-spending-block-how-to/",
-          "linkType": "pagelink",
-          "children": [
-            {
-              "text": "Getting a bank statement",
-              "href": "/help/account-and-profile/bank-statement-how-to/",
-              "err": {},
-              "linkType": "pathlink"
-            }
-          ]
+          "linkType": "pagelink"
         },
         {
           "text": "our usual channels",
@@ -7187,32 +5927,8 @@
               "linkType": "pathlink"
             },
             {
-              "text": "How Direct Debits work",
-              "href": "/help/payments-getting-started/how-direct-debits-work/",
-              "err": {},
-              "linkType": "pathlink"
-            },
-            {
-              "text": "Setting up a Direct Debit",
-              "href": "/help/payments-getting-started/direct-debit-set-up/",
-              "err": {},
-              "linkType": "pathlink"
-            },
-            {
-              "text": "Cancelling a Direct Debit",
-              "href": "/help/payments-getting-started/cancel-direct-debit/",
-              "err": {},
-              "linkType": "pathlink"
-            },
-            {
               "text": "The Direct Debit Guarantee",
               "href": "/help/payments-getting-started/direct-debit-guarantee-what/",
-              "err": {},
-              "linkType": "pathlink"
-            },
-            {
-              "text": "Bank holiday delays",
-              "href": "/help/payments-getting-started/bank-holiday-delays-web/",
               "err": {},
               "linkType": "pathlink"
             },
@@ -7570,6 +6286,30 @@
               "text": "Direct Debit Guarantee",
               "href": "https://www.directdebit.co.uk/DirectDebitExplained/pages/directdebitguarantee.aspx",
               "linkType": "pagelink"
+            },
+            {
+              "text": "How Direct Debits work",
+              "href": "/help/payments-getting-started/how-direct-debits-work/",
+              "err": {},
+              "linkType": "pathlink"
+            },
+            {
+              "text": "Setting up a Direct Debit",
+              "href": "/help/payments-getting-started/direct-debit-set-up/",
+              "err": {},
+              "linkType": "pathlink"
+            },
+            {
+              "text": "Cancelling a Direct Debit",
+              "href": "/help/payments-getting-started/cancel-direct-debit/",
+              "err": {},
+              "linkType": "pathlink"
+            },
+            {
+              "text": "Bank holiday delays",
+              "href": "/help/payments-getting-started/bank-holiday-delays-web/",
+              "err": {},
+              "linkType": "pathlink"
             }
           ]
         },
@@ -7756,6 +6496,119 @@
       "href": "https://monzo.com/legal/privacy-notice/",
       "linkType": "pagelink",
       "children": [
+        {
+          "text": "Terms \u0026 Conditions",
+          "href": "/legal/terms-and-conditions/",
+          "err": {},
+          "linkType": "pathlink"
+        },
+        {
+          "text": "FSCS Information",
+          "href": "/legal/fscs-information/",
+          "err": {},
+          "linkType": "pathlink"
+        },
+        {
+          "text": "Privacy Notice",
+          "href": "/legal/privacy-notice",
+          "err": {},
+          "linkType": "pathlink"
+        },
+        {
+          "text": "Cookie Notice",
+          "href": "/legal/cookie-notice",
+          "err": {},
+          "linkType": "pathlink"
+        },
+        {
+          "text": "Fee Information",
+          "href": "/legal/fee-information",
+          "err": {},
+          "linkType": "pathlink"
+        },
+        {
+          "text": "Complaints Data",
+          "href": "/legal/complaints-data",
+          "err": {},
+          "linkType": "pathlink"
+        },
+        {
+          "text": "Overdraft Information",
+          "href": "/legal/overdraft-information",
+          "err": {},
+          "linkType": "pathlink"
+        },
+        {
+          "text": "Loan Information",
+          "href": "/legal/loan-information",
+          "err": {},
+          "linkType": "pathlink"
+        },
+        {
+          "text": "Cashback on Your Loan",
+          "href": "/legal/cashback-on-your-loan",
+          "err": {},
+          "linkType": "pathlink"
+        },
+        {
+          "text": "Making decisions using Open Banking Terms and Conditions",
+          "href": "/legal/decisions-using-open-banking/terms-and-conditions",
+          "err": {},
+          "linkType": "pathlink"
+        },
+        {
+          "text": "Making decisions using Open Banking Privacy Notice",
+          "href": "/legal/decisions-using-open-banking/privacy-notice",
+          "err": {},
+          "linkType": "pathlink"
+        },
+        {
+          "text": "Monzo Plus",
+          "href": "/legal/plus/terms-and-conditions",
+          "err": {},
+          "linkType": "pathlink"
+        },
+        {
+          "text": "Monzo Premium",
+          "href": "/legal/premium/terms-and-conditions",
+          "err": {},
+          "linkType": "pathlink"
+        },
+        {
+          "text": "Referral Scheme",
+          "href": "/legal/referral-scheme/terms-and-conditions",
+          "err": {},
+          "linkType": "pathlink"
+        },
+        {
+          "text": "Our Tax Strategy",
+          "href": "/legal/tax-strategy",
+          "err": {},
+          "linkType": "pathlink"
+        },
+        {
+          "text": "Browser Support Policy",
+          "href": "/legal/browser-support-policy",
+          "err": {},
+          "linkType": "pathlink"
+        },
+        {
+          "text": "Mobile Operating System Support Policy",
+          "href": "/legal/mobile-operating-system-support-policy",
+          "err": {},
+          "linkType": "pathlink"
+        },
+        {
+          "text": "Credit Insights",
+          "href": "/legal/free-credit-insights-terms-and-conditions",
+          "err": {},
+          "linkType": "pathlink"
+        },
+        {
+          "text": "help@monzo.com",
+          "href": "mailto:help@monzo.com",
+          "linkType": "unknownlink"
+        },
         {
           "text": "dpo@monzo.com",
           "href": "mailto:dpo@monzo.com",
@@ -7957,114 +6810,6 @@
       "linkType": "pagelink",
       "children": [
         {
-          "text": "Terms \u0026 Conditions",
-          "href": "/legal/terms-and-conditions/",
-          "err": {},
-          "linkType": "pathlink"
-        },
-        {
-          "text": "FSCS Information",
-          "href": "/legal/fscs-information/",
-          "err": {},
-          "linkType": "pathlink"
-        },
-        {
-          "text": "Privacy Notice",
-          "href": "/legal/privacy-notice",
-          "err": {},
-          "linkType": "pathlink"
-        },
-        {
-          "text": "Cookie Notice",
-          "href": "/legal/cookie-notice",
-          "err": {},
-          "linkType": "pathlink"
-        },
-        {
-          "text": "Fee Information",
-          "href": "/legal/fee-information",
-          "err": {},
-          "linkType": "pathlink"
-        },
-        {
-          "text": "Complaints Data",
-          "href": "/legal/complaints-data",
-          "err": {},
-          "linkType": "pathlink"
-        },
-        {
-          "text": "Overdraft Information",
-          "href": "/legal/overdraft-information",
-          "err": {},
-          "linkType": "pathlink"
-        },
-        {
-          "text": "Loan Information",
-          "href": "/legal/loan-information",
-          "err": {},
-          "linkType": "pathlink"
-        },
-        {
-          "text": "Cashback on Your Loan",
-          "href": "/legal/cashback-on-your-loan",
-          "err": {},
-          "linkType": "pathlink"
-        },
-        {
-          "text": "Making decisions using Open Banking Terms and Conditions",
-          "href": "/legal/decisions-using-open-banking/terms-and-conditions",
-          "err": {},
-          "linkType": "pathlink"
-        },
-        {
-          "text": "Making decisions using Open Banking Privacy Notice",
-          "href": "/legal/decisions-using-open-banking/privacy-notice",
-          "err": {},
-          "linkType": "pathlink"
-        },
-        {
-          "text": "Monzo Plus",
-          "href": "/legal/plus/terms-and-conditions",
-          "err": {},
-          "linkType": "pathlink"
-        },
-        {
-          "text": "Monzo Premium",
-          "href": "/legal/premium/terms-and-conditions",
-          "err": {},
-          "linkType": "pathlink"
-        },
-        {
-          "text": "Referral Scheme",
-          "href": "/legal/referral-scheme/terms-and-conditions",
-          "err": {},
-          "linkType": "pathlink"
-        },
-        {
-          "text": "Our Tax Strategy",
-          "href": "/legal/tax-strategy",
-          "err": {},
-          "linkType": "pathlink"
-        },
-        {
-          "text": "Browser Support Policy",
-          "href": "/legal/browser-support-policy",
-          "err": {},
-          "linkType": "pathlink"
-        },
-        {
-          "text": "Mobile Operating System Support Policy",
-          "href": "/legal/mobile-operating-system-support-policy",
-          "err": {},
-          "linkType": "pathlink"
-        },
-        {
-          "text": "Credit Insights",
-          "href": "/legal/free-credit-insights-terms-and-conditions",
-          "err": {},
-          "linkType": "pathlink"
-        },
-        {
           "text": "Facebook ads preferences",
           "href": "https://www.facebook.com/ads/preferences/?entry_product=ad_settings_screen",
           "linkType": "pagelink"
@@ -8073,11 +6818,6 @@
           "text": "Twitter account personalisation",
           "href": "https://twitter.com/settings/account/personalization",
           "linkType": "pagelink"
-        },
-        {
-          "text": "help@monzo.com",
-          "href": "mailto:help@monzo.com",
-          "linkType": "unknownlink"
         },
         {
           "text": "Version 1.12",
@@ -8201,43 +6941,22 @@
                 {
                   "text": "Read more about Trends",
                   "href": "https://monzo.com/blog/trends",
-                  "linkType": "pagelink",
-                  "children": [
-                    {
-                      "text": "Monzo personal account",
-                      "href": "https://monzo.com/i/current-account/",
-                      "linkType": "pagelink"
-                    },
-                    {
-                      "text": "Monzo joint account",
-                      "href": "https://monzo.com/features/joint-accounts/",
-                      "linkType": "pagelink"
-                    }
-                  ]
+                  "linkType": "pagelink"
                 },
                 {
                   "text": "Read more about Monzo Flex",
                   "href": "https://monzo.com/blog/2021/09/16/monzo-flex",
-                  "linkType": "pagelink",
-                  "children": [
-                    {
-                      "text": "Published in: ",
-                      "href": "/blog/topic/borrowing",
-                      "err": {},
-                      "linkType": "pathlink"
-                    },
-                    {
-                      "text": "learn about Flex",
-                      "href": "https://www.monzo.com/flex",
-                      "linkType": "pagelink"
-                    },
-                    {
-                      "text": "Read more from Leanne",
-                      "href": "/blog/author/leanne-kelsall",
-                      "err": {},
-                      "linkType": "pathlink"
-                    }
-                  ]
+                  "linkType": "pagelink"
+                },
+                {
+                  "text": "Monzo Plus",
+                  "href": "https://monzo.com/i/monzo-plus/",
+                  "linkType": "pagelink"
+                },
+                {
+                  "text": "Monzo Premium",
+                  "href": "https://monzo.com/i/monzo-premium/",
+                  "linkType": "pagelink"
                 },
                 {
                   "text": "Read more about paying on card from a Pot",
@@ -8247,153 +6966,12 @@
                 {
                   "text": "Read more about getting paid",
                   "href": "https://monzo.com/blog/2021/10/12/getting-paid-with-monzo-business",
-                  "linkType": "pagelink",
-                  "children": [
-                    {
-                      "text": " ",
-                      "href": "https://monzo.com/i/business/features/invoices/",
-                      "linkType": "pagelink",
-                      "children": [
-                        {
-                          "text": "Join Monzo",
-                          "href": "https://monzo.com/download/",
-                          "linkType": "pagelink"
-                        }
-                      ]
-                    },
-                    {
-                      "text": "accounting integrations",
-                      "href": "https://monzo.com/i/business/features/integrated-accounting/",
-                      "linkType": "pagelink"
-                    },
-                    {
-                      "text": "Learn more.",
-                      "href": "https://monzo.com/blog/2021/11/29/get-paid-with-apple-pay-and-google-pay",
-                      "linkType": "pagelink",
-                      "children": [
-                        {
-                          "text": "Read more from Maja",
-                          "href": "/blog/author/maja-bayyoud",
-                          "err": {},
-                          "linkType": "pathlink"
-                        }
-                      ]
-                    },
-                    {
-                      "text": "This webpage",
-                      "href": "https://monzo.com/i/pay-a-monzo-business",
-                      "linkType": "pagelink",
-                      "children": [
-                        {
-                          "text": "Features",
-                          "href": "/business-banking/features/",
-                          "err": {},
-                          "linkType": "pathlink"
-                        },
-                        {
-                          "text": "Testimonials",
-                          "href": "/business-banking/testimonials/",
-                          "err": {},
-                          "linkType": "pathlink"
-                        },
-                        {
-                          "text": "Eligibility",
-                          "href": "/business-banking/eligibility/",
-                          "err": {},
-                          "linkType": "pathlink"
-                        },
-                        {
-                          "text": "Sign up",
-                          "href": "/business-banking/sign-up-for-business/",
-                          "err": {},
-                          "linkType": "pathlink"
-                        },
-                        {
-                          "text": "Go to FAQs",
-                          "href": "https://monzo.com/help/payments-paying-monzobusiness",
-                          "linkType": "pagelink"
-                        },
-                        {
-                          "text": "our FAQs",
-                          "href": "https://monzo.com/help/payments-paying-monzobusiness/",
-                          "linkType": "pagelink",
-                          "children": [
-                            {
-                              "text": "What is the 'Pay invoice' button in the invoice I received?",
-                              "href": "/help/payments-paying-monzobusiness/paying-business-paynow/",
-                              "err": {},
-                              "linkType": "pathlink"
-                            },
-                            {
-                              "text": "What are payment links?",
-                              "href": "/help/payments-paying-monzobusiness/paying-business-paymentlinks/",
-                              "err": {},
-                              "linkType": "pathlink"
-                            },
-                            {
-                              "text": "What is an easy bank transfer?",
-                              "href": "/help/payments-paying-monzobusiness/paying-easy-bank-transfer/",
-                              "err": {},
-                              "linkType": "pathlink"
-                            },
-                            {
-                              "text": "What protection do I have by paying a payment link or an invoice?",
-                              "href": "/help/payments-paying-monzobusiness/paying-business-protection/",
-                              "err": {},
-                              "linkType": "pathlink"
-                            },
-                            {
-                              "text": "Do I need a Monzo account to make a payment using a payment link?",
-                              "href": "/help/payments-paying-monzobusiness/paying-business-no-account/",
-                              "err": {},
-                              "linkType": "pathlink"
-                            },
-                            {
-                              "text": "Why do you ask for my email when I pay by easy bank transfer or card?",
-                              "href": "/help/payments-paying-monzobusiness/paying-business-email/",
-                              "err": {},
-                              "linkType": "pathlink"
-                            },
-                            {
-                              "text": "Can I use the payment confirmation I received from Monzo as a receipt?",
-                              "href": "/help/payments-paying-monzobusiness/paying-business-receipt/",
-                              "err": {},
-                              "linkType": "pathlink"
-                            },
-                            {
-                              "text": "What will Monzo charge me or the business if I pay using links?",
-                              "href": "/help/payments-paying-monzobusiness/paying-business-fees/",
-                              "err": {},
-                              "linkType": "pathlink"
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "text": "Find out more about Monzo Business",
-                      "href": "https://monzo.com/i/business/",
-                      "linkType": "pagelink"
-                    },
-                    {
-                      "text": "Read more from Sheri",
-                      "href": "/blog/author/sheri-farsani",
-                      "err": {},
-                      "linkType": "pathlink"
-                    }
-                  ]
+                  "linkType": "pagelink"
                 },
                 {
                   "text": "the improvements",
                   "href": "https://monzo.com/blog/new-international-transfers/",
-                  "linkType": "pagelink",
-                  "children": [
-                    {
-                      "text": "real exchange rate",
-                      "href": "https://wise.com/gb/mid-market-rate",
-                      "linkType": "pagelink"
-                    }
-                  ]
+                  "linkType": "pagelink"
                 },
                 {
                   "text": "8x less than high street banks",
@@ -8403,40 +6981,11 @@
                 {
                   "text": "introduced",
                   "href": "https://monzo.com/blog/2019/09/20/the-monzo-app-is-changing",
-                  "linkType": "pagelink",
-                  "children": [
-                    {
-                      "text": "prepaid card",
-                      "href": "https://monzo.com/blog/2015/10/30/we-are-ready",
-                      "linkType": "pagelink"
-                    },
-                    {
-                      "text": "Pulse Graph",
-                      "href": "https://community.monzo.com/t/scrap-the-graph/37153",
-                      "linkType": "pagelink"
-                    },
-                    {
-                      "text": "loans",
-                      "href": "https://monzo.com/i/loans",
-                      "linkType": "pagelink"
-                    },
-                    {
-                      "text": "feedback",
-                      "href": "https://community.monzo.com/t/were-working-on-a-new-look-for-the-monzo-app/65333/4876",
-                      "linkType": "pagelink"
-                    },
-                    {
-                      "text": "Read more from Bruno",
-                      "href": "/blog/author/bruno-vaz-moco",
-                      "err": {},
-                      "linkType": "pathlink"
-                    }
-                  ]
+                  "linkType": "pagelink"
                 },
                 {
                   "text": "Read more from Jack",
                   "href": "/blog/author/jack-cully",
-                  "err": {},
                   "linkType": "pathlink"
                 }
               ]
@@ -8447,22 +6996,23 @@
               "linkType": "pagelink",
               "children": [
                 {
+                  "text": "Published in: ",
+                  "href": "/blog/topic/product-updates",
+                  "linkType": "pathlink"
+                },
+                {
                   "text": "upped the contactless spend limit from £45 to £100",
                   "href": "https://monzo.com/blog/youll-be-able-to-make-contactless-payments-up-to-gbp100-to-make-paying-more",
-                  "linkType": "pagelink",
-                  "children": [
-                    {
-                      "text": "Read more from Milo",
-                      "href": "/blog/author/milo-thompson",
-                      "err": {},
-                      "linkType": "pathlink"
-                    }
-                  ]
+                  "linkType": "pagelink"
+                },
+                {
+                  "text": "Share With Us",
+                  "href": "https://monzo.com/i/share-with-us",
+                  "linkType": "pagelink"
                 },
                 {
                   "text": "Read more from Max",
                   "href": "/blog/author/max-white",
-                  "err": {},
                   "linkType": "pathlink"
                 }
               ]
@@ -8567,7 +7117,6 @@
                 {
                   "text": "Read more from Richard",
                   "href": "/blog/author/richard-cook",
-                  "err": {},
                   "linkType": "pathlink"
                 }
               ]
