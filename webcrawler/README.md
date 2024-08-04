@@ -60,29 +60,3 @@ Here’s a summary of the test results:
     coverage: 95.1% of statements
     ok      webcrawler/webcrawler   4.882s  coverage: 95.1% of statements
     ```
-
-## Development
-
-To contribute to the project:
-
-1. **Fork the Repository** on GitHub.
-2. **Create a New Branch**:
-
-    ```sh
-    git checkout -b feature/new-feature
-    ```
-
-3. **Commit Your Changes**:
-
-    ```sh
-    git add .
-    git commit -m "Add new feature"
-    ```
-
-4. **Push to Your Fork**:
-
-    ```sh
-    git push origin feature/new-feature
-    ```
-
-5. **Open a Pull Request** on GitHub.
